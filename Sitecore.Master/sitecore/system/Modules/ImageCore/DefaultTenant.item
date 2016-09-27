@@ -12,7 +12,7 @@ templatekey: Settings
 ----version----
 language: en
 version: 1
-revision: ffe4e1c2-ef36-44ab-b081-b0f18687d345
+revision: 65988995-9028-4d68-93a6-0f3300721a40
 
 ----field----
 field: {4F1FEDB6-3F4E-4E8A-B3F0-8CF74266CD98}
@@ -25,9 +25,44 @@ content-length: 1
 field: {80869337-65D6-4CBA-A781-E3A7013E6B96}
 name: Enhance
 key: enhance
+content-length: 0
+
+
+----field----
+field: {28C99740-8E5C-4E77-AE0A-5FEEC099D060}
+name: IsEnabled
+key: isenabled
 content-length: 1
 
 1
+----field----
+field: {5FD2936B-F045-472A-9A40-9269DBCCCC5B}
+name: MinimumImageSizeKB
+key: minimumimagesizekb
+content-length: 2
+
+50
+----field----
+field: {4EA57D15-6E45-408A-8C2D-BE02040ABD4D}
+name: KrakenApiKey
+key: krakenapikey
+content-length: 32
+
+19d2d9293c329de7ac908579074d65f6
+----field----
+field: {1AE4ACC5-6E92-45FB-B682-5F41EA5E4510}
+name: KrakenApiSecret
+key: krakenapisecret
+content-length: 40
+
+bd056ee791b5643057a38aff80834e847d0a5683
+----field----
+field: {4D1CF233-37D2-4D9E-BBD7-00700E172A56}
+name: MaxImageSizeKB
+key: maximagesizekb
+content-length: 4
+
+1000
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -55,14 +90,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ffe4e1c2-ef36-44ab-b081-b0f18687d345
+65988995-9028-4d68-93a6-0f3300721a40
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20160907T141617:636088545777601883
+20160926T122315:636104893956386399
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
