@@ -12,7 +12,6 @@ namespace Mindtree.ImageCrunch.Web.Commands
 {
     public class ShrinkImageOnTree : ShrinkImage
     {
-        TenantSetting objTennantSetting = null;
         protected override void Shrink(object[] parameters)
         {
             Item item = parameters[0] as Item;

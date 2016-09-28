@@ -29,11 +29,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sitecore7.2", "Sitecore7.2"
 		Libs\Sitecore7.2\Sitecore.Kernel.dll = Libs\Sitecore7.2\Sitecore.Kernel.dll
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindtree.ImageCrunch.Web", "Mindtree.ImageCrunch.Web\Mindtree.ImageCrunch.Web.csproj", "{E36445EF-B04A-43D2-A259-355FB6390044}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindtree.ImageCrunch.Web.Sheer", "Mindtree.ImageCrunch.Web\Mindtree.ImageCrunch.Web.Sheer.csproj", "{E36445EF-B04A-43D2-A259-355FB6390044}"
 EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Sitecore.Master", "Sitecore.Master\Sitecore.Master.scproj", "{EF3A3D8E-4EBD-462C-AF86-D3DA5ECC6231}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindtreeSitecore.Common", "Mindtree.Sitecore.Common\MindtreeSitecore.Common.csproj", "{7D407201-631C-4825-ADDD-9BC2463AF88D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindtree.ImageCrunch.Web.82", "Mindtree.ImageCrunch.Web.82\Mindtree.ImageCrunch.Web.82.csproj", "{20A25A4D-83C9-4886-9AA5-CA08A898599B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,6 +115,14 @@ Global
 		{7D407201-631C-4825-ADDD-9BC2463AF88D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D407201-631C-4825-ADDD-9BC2463AF88D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D407201-631C-4825-ADDD-9BC2463AF88D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20A25A4D-83C9-4886-9AA5-CA08A898599B}.Debug.Kraken|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A25A4D-83C9-4886-9AA5-CA08A898599B}.Debug.Kraken|Any CPU.Build.0 = Debug|Any CPU
+		{20A25A4D-83C9-4886-9AA5-CA08A898599B}.Debug.SmushIt|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A25A4D-83C9-4886-9AA5-CA08A898599B}.Debug.SmushIt|Any CPU.Build.0 = Debug|Any CPU
+		{20A25A4D-83C9-4886-9AA5-CA08A898599B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A25A4D-83C9-4886-9AA5-CA08A898599B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20A25A4D-83C9-4886-9AA5-CA08A898599B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20A25A4D-83C9-4886-9AA5-CA08A898599B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

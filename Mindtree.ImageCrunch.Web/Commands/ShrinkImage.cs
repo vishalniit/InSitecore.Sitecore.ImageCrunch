@@ -15,12 +15,15 @@ namespace Mindtree.ImageCrunch.Web.Commands
         public CrunchOptions crunchOptions { get; set; }
 
         public FillSetting objFillSetting { get; set; }
+
+        public TenantSetting objTennantSetting { get; set; }
         public override void Execute(CommandContext context)
         {
             if (!context.Items.Any(t => t.Paths.IsMediaItem))
             {
                 return;
             }
+            //this will clear any previous setting filled
             objFillSetting = null;
             ProgressBox.Execute("Shrink Image", "Shrink Image", new ProgressBoxMethod(this.Shrink), new object[1]
             {
