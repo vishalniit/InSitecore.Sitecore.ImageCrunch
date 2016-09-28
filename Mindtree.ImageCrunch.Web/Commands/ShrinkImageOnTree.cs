@@ -12,10 +12,7 @@ namespace Mindtree.ImageCrunch.Web.Commands
 {
     public class ShrinkImageOnTree : ShrinkImage
     {
-        CrunchOptions crunchOptions;
-        FillSetting objFillSetting;
-        TenantSetting objTennantSetting;
-        MediaItem mi;
+        TenantSetting objTennantSetting = null;
         protected override void Shrink(object[] parameters)
         {
             Item item = parameters[0] as Item;
@@ -32,7 +29,7 @@ namespace Mindtree.ImageCrunch.Web.Commands
                 {
                     crunchOptions = new CrunchOptions();
                     objFillSetting = new FillSetting();
-                    objTennantSetting = objFillSetting.getSetting();
+                    objTennantSetting = objFillSetting.getSetting(mi.MediaPath, item.Database.Name);
                     crunchOptions.APIKey = objTennantSetting.ApiKey;
                     crunchOptions.APISecret = objTennantSetting.ApiSecret;
                     crunchOptions.wait = true;

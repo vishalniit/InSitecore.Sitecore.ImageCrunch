@@ -11,25 +11,27 @@ namespace Mindtree.ImageCrunch.Web.Commands
 {
     public class ShrinkImage : Command
     {
+        public MediaItem mi { get; set; }
+        public CrunchOptions crunchOptions { get; set; }
+
+        public FillSetting objFillSetting { get; set; }
         public override void Execute(CommandContext context)
         {
             if (!context.Items.Any(t => t.Paths.IsMediaItem))
             {
                 return;
             }
-
+            objFillSetting = null;
             ProgressBox.Execute("Shrink Image", "Shrink Image", new ProgressBoxMethod(this.Shrink), new object[1]
             {
                 context.Items[0]
             });
-
         }
 
         protected virtual void Shrink(object[] parameters)
         {
             Item item = parameters[0] as Item;
-            MediaItem mi;
-            CrunchOptions crunchOptions;
+
             if (item == null)
             {
                 throw new Exception("Parameter 0 was not a item");
@@ -38,8 +40,8 @@ namespace Mindtree.ImageCrunch.Web.Commands
             {
                 mi = new MediaItem(item);
                 crunchOptions = new CrunchOptions();
-                FillSetting objFillSetting = new FillSetting();
-                TenantSetting objTennantSetting = objFillSetting.getSetting();
+                objFillSetting = new FillSetting();
+                TenantSetting objTennantSetting = objFillSetting.getSetting(mi.MediaPath, mi.Database.Name);
                 if (mi.Size > objTennantSetting.MinimumKBSize && mi.Size < objTennantSetting.MaxImageSize)
                 {
                     crunchOptions.APIKey = objTennantSetting.ApiKey;

@@ -15,7 +15,7 @@ namespace Mindtree.ImageCrunch.Pipelines
                 CrunchOptions crunchOptions;
                 FillSetting objFillSetting = new FillSetting();
                 MediaItem mi = args.UploadedItems[0];
-                TenantSetting objTennantSetting = objFillSetting.getSetting(mi.MediaPath);
+                TenantSetting objTennantSetting = objFillSetting.getSetting(mi.MediaPath, mi.Database.Name);
                 crunchOptions = new CrunchOptions();
                 crunchOptions.APIKey = objTennantSetting.ApiKey;
                 crunchOptions.APISecret = objTennantSetting.ApiSecret;

@@ -51,7 +51,7 @@ namespace MindtreeSitecore.Common
 
         public static bool IsMediaItem(Item item)
         {
-            return (Sitecore.Resources.Media.MediaManager.HasMediaContent(item) || item.Paths.IsMediaItem);
+            return (Sitecore.Resources.Media.MediaManager.HasMediaContent(item));
         }
 
         /// <summary>
@@ -256,8 +256,60 @@ namespace MindtreeSitecore.Common
             return result;
         }
 
+        public static void ClearSitecoreCacheofItem(Database db, string itemId)
+        {
+            try
+            {
+                if (ID.IsID(itemId) && db != null)
+                {
+                    ID itemID = new ID(itemId);
+                    ClearSitecoreCacheofItem(db.Name, itemID);
+                }
+            }
+            catch { }
+        }
+
+        public static void ClearSitecoreCacheofItem(string database, Sitecore.Data.ID itemID)
+        {
+            try
+            {
+                Database db = GetDatabase(database);
+                //clear data cache
+                db.Caches.DataCache.RemoveItemInformation(itemID);
+
+                //clear item cache
+                db.Caches.ItemCache.RemoveItem(itemID);
+
+                //clear standard values cache
+                db.Caches.StandardValuesCache.RemoveKeysContaining(itemID.ToString());
+
+                //remove path cache
+                db.Caches.PathCache.RemoveKeysContaining(itemID.ToString());
+
+                Sitecore.Caching.Cache prefetchCache = GetPrefetchCache(db);
+                if (prefetchCache != null)
+                {
+                    prefetchCache.RemoveKeysContaining(itemID.ToString());
+                }
+            }
+            catch { }
+        }
+
+        private static Sitecore.Caching.Cache GetPrefetchCache(Database database)
+        {
+            Sitecore.Caching.Cache prefetchCache = null;
+            foreach (var cache in global::Sitecore.Caching.CacheManager.GetAllCaches())
+            {
+                if (cache.Name.Contains(string.Format("Prefetch data({0})", database.Name)))
+                {
+                    prefetchCache = cache;
+                }
+            }
+            return prefetchCache;
+        }
+
         /// <summary>
-        /// Returns an item always from the provided ItemID  
+        /// Returns an item always from the provided Path
         /// This will get the db from the context or look from query string
         /// This will get the language from the context or look from query string
         /// This will get the version from the query string or take the default version which is latest
@@ -321,7 +373,7 @@ namespace MindtreeSitecore.Common
         }
 
         /// <summary>
-        /// Returns an item always from the provided ItemID  
+        /// Returns an item always from the provided path
         /// This will get the db from the context or look from query string
         /// This will get the language from the context or look from query string
         /// This will get the version from the query string or take the default version which is latest

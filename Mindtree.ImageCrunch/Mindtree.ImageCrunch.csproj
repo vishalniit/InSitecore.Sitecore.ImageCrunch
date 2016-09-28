@@ -44,6 +44,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Libs\Sitecore7.2\Sitecore.Kernel.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.Zip">
+      <HintPath>..\Libs\Sitecore7.2\Sitecore.Zip.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Net.Http" />
@@ -52,6 +55,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CrunchImage.cs" />
@@ -62,10 +66,16 @@
     <Compile Include="Interfaces\ICruncher.cs" />
     <Compile Include="Pipelines\AttachFile.cs" />
     <Compile Include="Pipelines\FillSetting.cs" />
+    <Compile Include="Pipelines\Save.cs" />
     <Compile Include="Pipelines\Upload.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Mindtree.Sitecore.Common\MindtreeSitecore.Common.csproj">
+      <Project>{7d407201-631c-4825-addd-9bc2463af88d}</Project>
+      <Name>MindtreeSitecore.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />

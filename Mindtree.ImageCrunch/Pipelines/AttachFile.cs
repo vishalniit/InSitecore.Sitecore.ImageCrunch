@@ -19,7 +19,7 @@ namespace Mindtree.ImageCrunch.Pipelines
                 {
                     crunchOptions = new CrunchOptions();
                     FillSetting objFillSetting = new FillSetting();
-                    TenantSetting objTennantSetting = objFillSetting.getSetting();
+                    TenantSetting objTennantSetting = objFillSetting.getSetting(mi.MediaPath, mi.Database.Name);
                     if (mi.Size > objTennantSetting.MinimumKBSize && mi.Size < objTennantSetting.MaxImageSize)
                     {
                         crunchOptions.APIKey = objTennantSetting.ApiKey;
