@@ -29,11 +29,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sitecore7.2", "Sitecore7.2"
 		Libs\Sitecore7.2\Sitecore.Kernel.dll = Libs\Sitecore7.2\Sitecore.Kernel.dll
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindtree.ImageCrunch.Web", "Mindtree.ImageCrunch.Web\Mindtree.ImageCrunch.Web.csproj", "{E36445EF-B04A-43D2-A259-355FB6390044}"
-EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Sitecore.Master", "Sitecore.Master\Sitecore.Master.scproj", "{EF3A3D8E-4EBD-462C-AF86-D3DA5ECC6231}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindtreeSitecore.Common", "Mindtree.Sitecore.Common\MindtreeSitecore.Common.csproj", "{7D407201-631C-4825-ADDD-9BC2463AF88D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindtree.ImageCrunch.Web.82", "Mindtree.ImageCrunch.Web.82\Mindtree.ImageCrunch.Web.82.csproj", "{E36445EF-B04A-43D2-A259-355FB6390044}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,14 +85,6 @@ Global
 		{4A6BFCC4-4B2E-4FCC-8009-0D169F1DE087}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A6BFCC4-4B2E-4FCC-8009-0D169F1DE087}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A6BFCC4-4B2E-4FCC-8009-0D169F1DE087}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E36445EF-B04A-43D2-A259-355FB6390044}.Debug.Kraken|Any CPU.ActiveCfg = Debug|Any CPU
-		{E36445EF-B04A-43D2-A259-355FB6390044}.Debug.Kraken|Any CPU.Build.0 = Debug|Any CPU
-		{E36445EF-B04A-43D2-A259-355FB6390044}.Debug.SmushIt|Any CPU.ActiveCfg = Debug|Any CPU
-		{E36445EF-B04A-43D2-A259-355FB6390044}.Debug.SmushIt|Any CPU.Build.0 = Debug|Any CPU
-		{E36445EF-B04A-43D2-A259-355FB6390044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E36445EF-B04A-43D2-A259-355FB6390044}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E36445EF-B04A-43D2-A259-355FB6390044}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E36445EF-B04A-43D2-A259-355FB6390044}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EF3A3D8E-4EBD-462C-AF86-D3DA5ECC6231}.Debug.Kraken|Any CPU.ActiveCfg = Debug|Any CPU
 		{EF3A3D8E-4EBD-462C-AF86-D3DA5ECC6231}.Debug.Kraken|Any CPU.Build.0 = Debug|Any CPU
 		{EF3A3D8E-4EBD-462C-AF86-D3DA5ECC6231}.Debug.Kraken|Any CPU.Deploy.0 = Debug|Any CPU
@@ -113,6 +105,14 @@ Global
 		{7D407201-631C-4825-ADDD-9BC2463AF88D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D407201-631C-4825-ADDD-9BC2463AF88D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D407201-631C-4825-ADDD-9BC2463AF88D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E36445EF-B04A-43D2-A259-355FB6390044}.Debug.Kraken|Any CPU.ActiveCfg = Debug|Any CPU
+		{E36445EF-B04A-43D2-A259-355FB6390044}.Debug.Kraken|Any CPU.Build.0 = Debug|Any CPU
+		{E36445EF-B04A-43D2-A259-355FB6390044}.Debug.SmushIt|Any CPU.ActiveCfg = Debug|Any CPU
+		{E36445EF-B04A-43D2-A259-355FB6390044}.Debug.SmushIt|Any CPU.Build.0 = Debug|Any CPU
+		{E36445EF-B04A-43D2-A259-355FB6390044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E36445EF-B04A-43D2-A259-355FB6390044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E36445EF-B04A-43D2-A259-355FB6390044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E36445EF-B04A-43D2-A259-355FB6390044}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
