@@ -7,9 +7,9 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ef3a3d8e-4ebd-462c-af86-d3da5ecc6231</ProjectGuid>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
-    <SourceWebPhysicalPath>..\Mindtree.ImageCrunch.Web</SourceWebPhysicalPath>
-    <SourceWebProject>{e36445ef-b04a-43d2-a259-355fb6390044}|Mindtree.ImageCrunch.Web\Mindtree.ImageCrunch.Web.csproj</SourceWebProject>
-    <SourceWebVirtualPath>/Mindtree.ImageCrunch.Web.csproj</SourceWebVirtualPath>
+    <SourceWebPhysicalPath>..\Mindtree.ImageCrunch.Web.82</SourceWebPhysicalPath>
+    <SourceWebProject>{e36445ef-b04a-43d2-a259-355fb6390044}|Mindtree.ImageCrunch.Web\Mindtree.ImageCrunch.Web.82.csproj</SourceWebProject>
+    <SourceWebVirtualPath>/Mindtree.ImageCrunch.Web.82.csproj</SourceWebVirtualPath>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <EnableUpdateable>true</EnableUpdateable>
     <UseMerge>true</UseMerge>
@@ -31,7 +31,7 @@
     <InstallSitecoreConnector>True</InstallSitecoreConnector>
     <DisableFileDeployment>False</DisableFileDeployment>
     <SitecoreAccessGuid>6e6bd1e8-a5ef-40f3-aad0-9d40a8c4c300</SitecoreAccessGuid>
-    <SitecoreWebUrl>http://sitecore72/</SitecoreWebUrl>
+    <SitecoreWebUrl>http://sitecore82sym1/</SitecoreWebUrl>
     <EnableValidations>False</EnableValidations>
     <ValidationSettingsFilePath>.\Sitecore.Master_Debug.xml</ValidationSettingsFilePath>
   </PropertyGroup>
@@ -49,9 +49,9 @@
     </AssemblyAttributes>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Mindtree.ImageCrunch.Web\Mindtree.ImageCrunch.Web.csproj">
+    <ProjectReference Include="..\Mindtree.ImageCrunch.Web\Mindtree.ImageCrunch.Web.82.csproj">
       <Project>{e36445ef-b04a-43d2-a259-355fb6390044}</Project>
-      <Name>Mindtree.ImageCrunch.Web</Name>
+      <Name>Mindtree.ImageCrunch.Web.82</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

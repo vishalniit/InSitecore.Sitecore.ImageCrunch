@@ -302,7 +302,7 @@ namespace MindtreeSitecore.Common
             {
                 if (cache.Name.Contains(string.Format("Prefetch data({0})", database.Name)))
                 {
-                    prefetchCache = cache;
+                    prefetchCache = (Sitecore.Caching.Cache)cache;
                 }
             }
             return prefetchCache;
