@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Security.Cryptography;
-namespace Mindtree.Sitecore.Common
+namespace MindtreeSitecore.Common
 {
     /// <summary>
     /// Do general validation used casually in application

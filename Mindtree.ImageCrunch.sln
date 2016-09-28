@@ -33,7 +33,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindtree.ImageCrunch.Web", 
 EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Sitecore.Master", "Sitecore.Master\Sitecore.Master.scproj", "{EF3A3D8E-4EBD-462C-AF86-D3DA5ECC6231}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindtree.Sitecore.Common", "Mindtree.Sitecore.Common\Mindtree.Sitecore.Common.csproj", "{7D407201-631C-4825-ADDD-9BC2463AF88D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindtreeSitecore.Common", "Mindtree.Sitecore.Common\MindtreeSitecore.Common.csproj", "{7D407201-631C-4825-ADDD-9BC2463AF88D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

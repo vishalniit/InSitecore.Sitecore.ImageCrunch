@@ -7,9 +7,9 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4cecf013-0e69-405a-8a36-e8e89996fee6</ProjectGuid>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
-    <SourceWebPhysicalPath>..\SitecoreExtension.ImageCrunch.Web</SourceWebPhysicalPath>
-    <SourceWebProject>{e36445ef-b04a-43d2-a259-355fb6390044}|SitecoreExtension.ImageCrunch.Web\SitecoreExtension.ImageCrunch.Web.csproj</SourceWebProject>
-    <SourceWebVirtualPath>/SitecoreExtension.ImageCrunch.Web.csproj</SourceWebVirtualPath>
+    <SourceWebPhysicalPath>..\Mindtree.ImageCrunch.Web</SourceWebPhysicalPath>
+    <SourceWebProject>{e36445ef-b04a-43d2-a259-355fb6390044}|Mindtree.ImageCrunch.Web\Mindtree.ImageCrunch.Web.csproj</SourceWebProject>
+    <SourceWebVirtualPath>/Mindtree.ImageCrunch.Web.csproj</SourceWebVirtualPath>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <EnableUpdateable>true</EnableUpdateable>
     <UseMerge>true</UseMerge>
@@ -106,9 +106,9 @@
     </SitecoreItem>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SitecoreExtension.ImageCrunch.Web\SitecoreExtension.ImageCrunch.Web.csproj">
+    <ProjectReference Include="..\Mindtree.ImageCrunch.Web\Mindtree.ImageCrunch.Web.csproj">
       <Project>{e36445ef-b04a-43d2-a259-355fb6390044}</Project>
-      <Name>SitecoreExtension.ImageCrunch.Web</Name>
+      <Name>Mindtree.ImageCrunch.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -1,5 +1,4 @@
-﻿using Mindtree.ItemWebApi.Pipelines.Configuration;
-using Sitecore.Diagnostics;
+﻿using Sitecore.Diagnostics;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +6,7 @@ using System.Runtime.Caching;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mindtree.Sitecore.Common
+namespace MindtreeSitecore.Common
 {
     public enum APICachePriority
     {

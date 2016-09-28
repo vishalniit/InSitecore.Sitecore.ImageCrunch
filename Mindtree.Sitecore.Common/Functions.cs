@@ -9,15 +9,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Mindtree.ItemWebApi.Pipelines.Configuration;
 using Sitecore.SecurityModel;
-using Sitecore.ItemWebApi.Pipelines.Request;
 using System.Web;
 using System.IO;
 using Sitecore.IO;
 using Sitecore.Resources.Media;
-using Sitecore.ItemWebApi;
-namespace Mindtree.Sitecore.Common
+namespace MindtreeSitecore.Common
 {
     /// <summary>
     /// Common Function used in service and other CoreSync Funtionalities
@@ -26,38 +23,31 @@ namespace Mindtree.Sitecore.Common
     /// </summary>
     public static class Functions
     {
-        public static string GetCoreSyncSetting(string fieldName)
-        {
-            string value = "";
-            if (fieldName != null && fieldName.Length > 0)
-            {
-                Item itm = GetCoreSyncSettingItem();
-                if (itm != null)
-                {
-                    value = itm.Fields[fieldName].Value;
-                }
-            }
-            return value;
-        }
+        //public static string GetCoreSyncSetting(string fieldName)
+        //{
+        //    string value = "";
+        //    if (fieldName != null && fieldName.Length > 0)
+        //    {
+        //        Item itm = GetCoreSyncSettingItem();
+        //        if (itm != null)
+        //        {
+        //            value = itm.Fields[fieldName].Value;
+        //        }
+        //    }
+        //    return value;
+        //}
 
-        public static Item GetCoreSyncSettingItem()
-        {
-            Item value = null;
-            string settingpath = Sitecore.Configuration.Settings.GetSetting("CoreSync.WebSettingItem", "/sitecore/system/Modules/WebsiteSync");
-            string dbname = Sitecore.Configuration.Settings.GetSetting("CoreSync.WebSettingItemDB", "master");
-            value = GetItemPath(settingpath, dbname);
-            return value;
-        }
 
-        /// <summary>
-        /// This function identify if the context item is Media Item
-        /// </summary>
-        /// <param name="context"></param>
-        /// <returns>bool is media item or not</returns>
-        public static bool IsMediaItem(Sitecore.ItemWebApi.Context context)
-        {
-            return IsMediaItem(context.Item);
-        }
+
+        ///// <summary>
+        ///// This function identify if the context item is Media Item
+        ///// </summary>
+        ///// <param name="context"></param>
+        ///// <returns>bool is media item or not</returns>
+        //public static bool IsMediaItem(Sitecore.ItemWebApi.Context context)
+        //{
+        //    return IsMediaItem(context.Item);
+        //}
 
         public static bool IsMediaItem(Item item)
         {
@@ -190,17 +180,17 @@ namespace Mindtree.Sitecore.Common
         /// </summary>
         /// <param name="ra">RequestArgs</param>
         /// <returns>Sitecore.Data.Items.Item</returns>
-        public static Item GetItem(RequestArgs ra)
-        {
-            Item result = null;
-            if (ra.Context != null)
-                result = ra.Context.Item;
-            if (result == null || !WebUtil.GetQueryString(Settings.sc_itemid).Equals(result.ID.Guid.ToString(), StringComparison.InvariantCultureIgnoreCase))
-                result = GetItem(WebUtil.GetQueryString(Settings.sc_itemid));
-            if (result != null)
-                result = result.Versions.GetLatestVersion();
-            return result;
-        }
+        //public static Item GetItem(RequestArgs ra)
+        //{
+        //    Item result = null;
+        //    if (ra.Context != null)
+        //        result = ra.Context.Item;
+        //    if (result == null || !WebUtil.GetQueryString(Settings.sc_itemid).Equals(result.ID.Guid.ToString(), StringComparison.InvariantCultureIgnoreCase))
+        //        result = GetItem(WebUtil.GetQueryString(Settings.sc_itemid));
+        //    if (result != null)
+        //        result = result.Versions.GetLatestVersion();
+        //    return result;
+        //}
 
         /// <summary>
         /// Returns an item always from the provided ItemID  
@@ -538,7 +528,7 @@ namespace Mindtree.Sitecore.Common
                             }
                             catch
                             {
-                                Logger.Warn("Cannot create the versioned media item.");
+                                //Logger.Warn("Cannot create the versioned media item.");
                             }
                         }
                     }

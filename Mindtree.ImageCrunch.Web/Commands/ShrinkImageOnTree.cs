@@ -24,7 +24,7 @@ namespace Mindtree.ImageCrunch.Web.Commands
             {
                 return;
             }
-            else if (item.Paths.IsMediaItem && item.TemplateID != TemplateIDs.MediaFolder && item.TemplateID!=TemplateID)
+            else if (MindtreeSitecore.Common.Functions.IsMediaItem(item))
             {
                 mi = new MediaItem(item);
                 //This make sures that no need to get setting item recursively for each child.
