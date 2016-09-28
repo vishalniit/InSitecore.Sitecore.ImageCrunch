@@ -37,6 +37,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindtreeSitecore.Common", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindtree.ImageCrunch.Web.82", "Mindtree.ImageCrunch.Web.82\Mindtree.ImageCrunch.Web.82.csproj", "{20A25A4D-83C9-4886-9AA5-CA08A898599B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sitecore8.2", "Sitecore8.2", "{F55473BB-BC58-44F3-9E34-B14E617C78DA}"
+	ProjectSection(SolutionItems) = preProject
+		Libs\Sitecore8.2\Sitecore.Kernel.dll = Libs\Sitecore8.2\Sitecore.Kernel.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug.Kraken|Any CPU = Debug.Kraken|Any CPU
@@ -129,5 +134,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{32E58DBC-10D6-47CC-BFC9-2FA0FAAAEDF4} = {15C6E8BA-3B9D-449B-A228-4E709E8B07A5}
+		{F55473BB-BC58-44F3-9E34-B14E617C78DA} = {15C6E8BA-3B9D-449B-A228-4E709E8B07A5}
 	EndGlobalSection
 EndGlobal
