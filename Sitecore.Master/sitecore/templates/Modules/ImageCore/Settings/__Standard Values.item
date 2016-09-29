@@ -1,68 +1,69 @@
 ----item----
 version: 1
-id: {6B490DF4-BB98-4658-86C5-68CE84C0381F}
+id: {7B2B9B0E-786D-45D4-8620-47D1CA451054}
 database: master
-path: /sitecore/system/Modules/ImageCore/DefaultTenant
-parent: {D0EA3B7F-99BE-4857-B0BE-135EB38C0510}
-name: DefaultTenant
+path: /sitecore/templates/Modules/ImageCore/Settings/__Standard Values
+parent: {95209A83-9ED4-4A24-A7FC-4FCCE1BD6FAA}
+name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}
-template: {AD6F35C0-8632-4FA1-A021-BCC19E86BFD2}
+template: {95209A83-9ED4-4A24-A7FC-4FCCE1BD6FAA}
 templatekey: Settings
+created: 20160929T155724:636107614442700000
 
 ----version----
 language: en
 version: 1
-revision: 65988995-9028-4d68-93a6-0f3300721a40
+revision: 10b67e9f-d9bb-453d-b887-ab46e142dc4a
 
 ----field----
-field: {4F1FEDB6-3F4E-4E8A-B3F0-8CF74266CD98}
+field: {31BA42D7-53D3-48BC-A832-B98412AD5068}
 name: Lossy
 key: lossy
 content-length: 1
 
 1
 ----field----
-field: {80869337-65D6-4CBA-A781-E3A7013E6B96}
-name: Enhance
-key: enhance
-content-length: 0
-
-
-----field----
-field: {28C99740-8E5C-4E77-AE0A-5FEEC099D060}
+field: {22ADEB58-CD6E-44CB-8276-83C742076C94}
 name: IsEnabled
 key: isenabled
 content-length: 1
 
 1
 ----field----
-field: {5FD2936B-F045-472A-9A40-9269DBCCCC5B}
+field: {AE0B2671-6E17-49B4-B0F0-34F8FE1F1988}
 name: MinimumImageSizeKB
 key: minimumimagesizekb
 content-length: 2
 
 50
 ----field----
-field: {4EA57D15-6E45-408A-8C2D-BE02040ABD4D}
+field: {4C594C57-2DD3-4EFA-B15D-045EDB0F6958}
 name: KrakenApiKey
 key: krakenapikey
-content-length: 32
+content-length: 15
 
-19d2d9293c329de7ac908579074d65f6
+----KeyHere----
 ----field----
-field: {1AE4ACC5-6E92-45FB-B682-5F41EA5E4510}
+field: {39F99962-1026-4AEF-BCD8-9E3FA1F9577D}
 name: KrakenApiSecret
 key: krakenapisecret
-content-length: 40
+content-length: 16
 
-bd056ee791b5643057a38aff80834e847d0a5683
+----PassHere----
 ----field----
-field: {4D1CF233-37D2-4D9E-BBD7-00700E172A56}
+field: {E0ED19E5-00D5-440C-9AED-0AE5551D89CB}
 name: MaxImageSizeKB
 key: maximagesizekb
 content-length: 4
 
-1000
+5000
+----field----
+field: {B411BD7B-8F06-423C-8E20-9D509D436C66}
+name: SiteMediaFolderPath
+key: sitemediafolderpath
+content-length: 38
+
+{3D6658D8-A0BF-4E75-B3E2-D050FABCF4E1}
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -74,9 +75,9 @@ sitecore\admin
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
-content-length: 15
+content-length: 16
 
-20160907T141545
+20160929T155724Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -90,14 +91,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-65988995-9028-4d68-93a6-0f3300721a40
+10b67e9f-d9bb-453d-b887-ab46e142dc4a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 16
 
-20160926T122315:636104893956386399
+20160929T155854Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

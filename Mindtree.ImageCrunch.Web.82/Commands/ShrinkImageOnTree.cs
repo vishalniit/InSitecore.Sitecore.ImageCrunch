@@ -29,7 +29,7 @@ namespace Mindtree.ImageCrunch.Web.Commands
                 {
                     crunchOptions = new CrunchOptions();
                     objFillSetting = new FillSetting();
-                    objTennantSetting = objFillSetting.getSetting(mi.MediaPath, item.Database.Name);
+                    objTennantSetting = objFillSetting.getSetting(mi.MediaPath, mi.Database.Name, mi.InnerItem.Language.ToString());
                     crunchOptions.APIKey = objTennantSetting.ApiKey;
                     crunchOptions.APISecret = objTennantSetting.ApiSecret;
                     crunchOptions.wait = true;

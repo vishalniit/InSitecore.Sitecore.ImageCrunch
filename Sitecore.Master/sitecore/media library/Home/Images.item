@@ -1,26 +1,19 @@
 ----item----
 version: 1
-id: {F5DD05DC-0F16-45D3-8D12-FDD37D32D6C2}
+id: {2EED14BC-5D30-4C29-B9DB-F63E76F0011C}
 database: master
-path: /sitecore/system/Modules/ImageCore
-parent: {08477468-D438-43D4-9D6A-6D84A611971C}
-name: ImageCore
+path: /sitecore/media library/Home/Images
+parent: {F4713112-EAF1-4338-B495-02D930E32E3A}
+name: Images
 master: {00000000-0000-0000-0000-000000000000}
-template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
-templatekey: Folder
-created: 20160929T160001:636107616012600000
+template: {FE5DD826-48C6-436D-B87A-7C4210C7413B}
+templatekey: Media folder
+created: 20160929T160835:636107621150730000
 
-----field----
-field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
-name: __Masters
-key: __masters
-content-length: 38
-
-{95209A83-9ED4-4A24-A7FC-4FCCE1BD6FAA}
 ----version----
 language: en
 version: 1
-revision: 8ccb0f4d-5a76-4323-9ca1-d2503e5395ed
+revision: 03f80aac-6b70-40f9-bf83-27da0bba2962
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -28,7 +21,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160929T160001Z
+20160929T160835Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -42,14 +35,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8ccb0f4d-5a76-4323-9ca1-d2503e5395ed
+03f80aac-6b70-40f9-bf83-27da0bba2962
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160929T160054Z
+20160929T160835Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

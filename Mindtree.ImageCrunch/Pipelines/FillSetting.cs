@@ -34,19 +34,19 @@ namespace Mindtree.ImageCrunch.Pipelines
             if (itmRootSettingPath != null)
             {
                 var fieldvalues = from p in itmRootSettingPath.Children
-                                  where path.Contains("/" + MindtreeSitecore.Common.Functions.GetItem(p.Fields["SiteMediaFolderPath"].Value, itmRootSettingPath.Database.Name).DisplayName + "/")
+                                  where path.Contains("/" + MindtreeSitecore.Common.Functions.GetItem(p.Fields["SiteMediaFolderPath"].Value, itmRootSettingPath.Database.Name, itmRootSettingPath.Language.ToString()).DisplayName + "/")
                                   select p;
                 itm = fieldvalues.FirstOrDefault<Item>();
             }
             return itm;
         }
 
-        public TenantSetting getSetting(string path = "", string database = "master")
+        public TenantSetting getSetting(string path = "", string database = "master", string language = "en")
         {
             TenantSetting objSetting = null;
             ///sitecore/system/Modules/ImageCore/DefaultTenant
             //MindtreeSitecore.Common.Functions.GetDatabase()
-            Item settingItm = MindtreeSitecore.Common.Functions.GetItemPath(ImageCorePath, database);
+            Item settingItm = MindtreeSitecore.Common.Functions.GetItemPath(ImageCorePath, database, language);
             settingItm = GetSettingItem(settingItm, path);
             MindtreeSitecore.Common.Functions.ClearSitecoreCacheofItem(database, settingItm.ID);
             if (settingItm != null)
