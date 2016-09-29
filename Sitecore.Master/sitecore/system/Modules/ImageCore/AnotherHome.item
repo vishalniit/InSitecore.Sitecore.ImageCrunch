@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {6B490DF4-BB98-4658-86C5-68CE84C0381F}
+id: {A9028864-70AF-4EFA-9A46-BBB44C6064F8}
 database: master
-path: /sitecore/system/Modules/ImageCore/DefaultTenant
+path: /sitecore/system/Modules/ImageCore/AnotherHome
 parent: {D0EA3B7F-99BE-4857-B0BE-135EB38C0510}
-name: DefaultTenant
+name: AnotherHome
 master: {00000000-0000-0000-0000-000000000000}
 template: {AD6F35C0-8632-4FA1-A021-BCC19E86BFD2}
 templatekey: Settings
@@ -12,7 +12,7 @@ templatekey: Settings
 ----version----
 language: en
 version: 1
-revision: 65988995-9028-4d68-93a6-0f3300721a40
+revision: e2684fd1-6a14-4675-ad75-1fc60f896e57
 
 ----field----
 field: {4F1FEDB6-3F4E-4E8A-B3F0-8CF74266CD98}
@@ -64,6 +64,13 @@ content-length: 4
 
 1000
 ----field----
+field: {E0D8EE84-D4D1-4971-B459-9D60ABA0A05B}
+name: SiteMediaFolderPath
+key: sitemediafolderpath
+content-length: 38
+
+{D160CC8B-C2B3-4993-8922-3C6C474D496C}
+----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
 key: __owner
@@ -90,14 +97,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-65988995-9028-4d68-93a6-0f3300721a40
+e2684fd1-6a14-4675-ad75-1fc60f896e57
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20160926T122315:636104893956386399
+20160926T151717:636104998376764579
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

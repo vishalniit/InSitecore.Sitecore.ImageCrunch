@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {80869337-65D6-4CBA-A781-E3A7013E6B96}
+id: {4D1CF233-37D2-4D9E-BBD7-00700E172A56}
 database: master
-path: /sitecore/templates/Modules/ImageCore/Settings/Data/Enhance
+path: /sitecore/templates/Modules/ImageCore/Settings/Configuration/MaxImageSizeKB
 parent: {B274CD59-5F30-41EA-9AE2-1FB82406FB26}
-name: Enhance
+name: MaxImageSizeKB
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}
 templatekey: Template field
@@ -13,42 +13,49 @@ templatekey: Template field
 field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
 name: Type
 key: type
-content-length: 8
+content-length: 7
 
-Checkbox
+Integer
 ----field----
 field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
 name: __Sortorder
 key: __sortorder
 content-length: 3
 
-300
+800
 ----version----
 language: en
 version: 1
-revision: 5f380b1b-3b75-46f3-9634-523292f9c8d9
+revision: 29eebbf0-2329-466d-b5f9-cab6096ea85b
 
+----field----
+field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
+name: Title
+key: title
+content-length: 103
+
+Specify the maximum size beyond which you don't want to optimize. In KiloByte, remember  1KB=1000 Bytes
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 15
 
-20160907T141355
+20160926T120835
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-5f380b1b-3b75-46f3-9634-523292f9c8d9
+29eebbf0-2329-466d-b5f9-cab6096ea85b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20160907T141355:636088544354843019
+20160926T145242:636104983627567919
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

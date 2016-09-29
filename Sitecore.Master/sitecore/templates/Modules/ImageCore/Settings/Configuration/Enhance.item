@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {6DF1214D-6563-4E80-862C-B86DE12C1775}
+id: {80869337-65D6-4CBA-A781-E3A7013E6B96}
 database: master
-path: /sitecore/templates/Modules/ImageCore/Settings/Data/IsDev
+path: /sitecore/templates/Modules/ImageCore/Settings/Configuration/Enhance
 parent: {B274CD59-5F30-41EA-9AE2-1FB82406FB26}
-name: IsDev
+name: Enhance
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}
 templatekey: Template field
@@ -22,33 +22,40 @@ name: __Sortorder
 key: __sortorder
 content-length: 3
 
-100
+300
 ----version----
 language: en
 version: 1
-revision: 1a2980f4-f57c-4e19-ba79-a0bbdbed2cd0
+revision: 0b3c8bb7-6103-4938-b407-40b131cebc7f
 
+----field----
+field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
+name: Title
+key: title
+content-length: 82
+
+This will enhance the image after compression - may reduce the optimization effect
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 15
 
-20160907T141354
+20160907T141355
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-1a2980f4-f57c-4e19-ba79-a0bbdbed2cd0
+0b3c8bb7-6103-4938-b407-40b131cebc7f
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20160907T141355:636088544350179223
+20160926T163548:636105045486533386
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -2,9 +2,9 @@
 version: 1
 id: {B274CD59-5F30-41EA-9AE2-1FB82406FB26}
 database: master
-path: /sitecore/templates/Modules/ImageCore/Settings/Data
+path: /sitecore/templates/Modules/ImageCore/Settings/Configuration
 parent: {AD6F35C0-8632-4FA1-A021-BCC19E86BFD2}
-name: Data
+name: Configuration
 master: {00000000-0000-0000-0000-000000000000}
 template: {E269FBB5-3750-427A-9149-7AA950B49301}
 templatekey: Template section
@@ -12,7 +12,7 @@ templatekey: Template section
 ----version----
 language: en
 version: 1
-revision: 2e60fb11-d6ae-45bb-8d83-b0e9afc07aed
+revision: 10536abe-2acf-41f5-9580-e4948448d013
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,14 +34,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-2e60fb11-d6ae-45bb-8d83-b0e9afc07aed
+10536abe-2acf-41f5-9580-e4948448d013
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20160907T141354:636088544347312533
+20160926T145242:636104983624225256
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
