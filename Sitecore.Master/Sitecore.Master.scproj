@@ -8,8 +8,8 @@
     <ProjectGuid>ef3a3d8e-4ebd-462c-af86-d3da5ecc6231</ProjectGuid>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <SourceWebPhysicalPath>..\Mindtree.ImageCrunch.Web</SourceWebPhysicalPath>
-    <SourceWebProject>{e36445ef-b04a-43d2-a259-355fb6390044}|Mindtree.ImageCrunch.Web\Mindtree.ImageCrunch.Web.csproj</SourceWebProject>
-    <SourceWebVirtualPath>/Mindtree.ImageCrunch.Web.csproj</SourceWebVirtualPath>
+    <SourceWebProject>{e36445ef-b04a-43d2-a259-355fb6390044}|Mindtree.ImageCrunch.Web\Mindtree.ImageCrunch.Web.Sheer.csproj</SourceWebProject>
+    <SourceWebVirtualPath>/Mindtree.ImageCrunch.Web.Sheer.csproj</SourceWebVirtualPath>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <EnableUpdateable>true</EnableUpdateable>
     <UseMerge>true</UseMerge>
@@ -34,6 +34,7 @@
     <SitecoreWebUrl>http://sitecore72/</SitecoreWebUrl>
     <EnableValidations>False</EnableValidations>
     <ValidationSettingsFilePath>.\Sitecore.Master_Debug.xml</ValidationSettingsFilePath>
+    <SitecoreDeployFolder>D:\Projects\RnD\OldImageCrunch\Sandbox\Website</SitecoreDeployFolder>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>false</DebugSymbols>
@@ -49,9 +50,9 @@
     </AssemblyAttributes>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Mindtree.ImageCrunch.Web\Mindtree.ImageCrunch.Web.csproj">
+    <ProjectReference Include="..\Mindtree.ImageCrunch.Web\Mindtree.ImageCrunch.Web.Sheer.csproj">
       <Project>{e36445ef-b04a-43d2-a259-355fb6390044}</Project>
-      <Name>Mindtree.ImageCrunch.Web</Name>
+      <Name>Mindtree.ImageCrunch.Web.Sheer</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
