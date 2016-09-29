@@ -8,7 +8,7 @@
     <ProjectGuid>ef3a3d8e-4ebd-462c-af86-d3da5ecc6231</ProjectGuid>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <SourceWebPhysicalPath>..\Mindtree.ImageCrunch.Web.82</SourceWebPhysicalPath>
-    <SourceWebProject>{e36445ef-b04a-43d2-a259-355fb6390044}|Mindtree.ImageCrunch.Web\Mindtree.ImageCrunch.Web.82.csproj</SourceWebProject>
+    <SourceWebProject>{e36445ef-b04a-43d2-a259-355fb6390044}|Mindtree.ImageCrunch.Web.82\Mindtree.ImageCrunch.Web.82.csproj</SourceWebProject>
     <SourceWebVirtualPath>/Mindtree.ImageCrunch.Web.82.csproj</SourceWebVirtualPath>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <EnableUpdateable>true</EnableUpdateable>
@@ -18,7 +18,7 @@
     <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
     <LegacyFileReplacement>false</LegacyFileReplacement>
     <AssemblyName>Sitecore.Master</AssemblyName>
-    <Name>Sitecore.Master</Name>
+    <Name>Sitecore.Master.82</Name>
     <RootNamespace>Sitecore.Master</RootNamespace>
     <ManageRoles>False</ManageRoles>
     <SitecoreDatabase>master</SitecoreDatabase>
@@ -34,6 +34,7 @@
     <SitecoreWebUrl>http://sitecore82sym1/</SitecoreWebUrl>
     <EnableValidations>False</EnableValidations>
     <ValidationSettingsFilePath>.\Sitecore.Master_Debug.xml</ValidationSettingsFilePath>
+    <SitecoreDeployFolder>D:\Projects\RnD\Sitecore82-Symp1\Sandbox\Website</SitecoreDeployFolder>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>false</DebugSymbols>
@@ -49,7 +50,7 @@
     </AssemblyAttributes>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Mindtree.ImageCrunch.Web\Mindtree.ImageCrunch.Web.82.csproj">
+    <ProjectReference Include="..\Mindtree.ImageCrunch.Web.82\Mindtree.ImageCrunch.Web.82.csproj">
       <Project>{e36445ef-b04a-43d2-a259-355fb6390044}</Project>
       <Name>Mindtree.ImageCrunch.Web.82</Name>
     </ProjectReference>
