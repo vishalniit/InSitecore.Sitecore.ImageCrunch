@@ -26,7 +26,7 @@ ImageCrunch:CrunchMediaItem
 ----version----
 language: en
 version: 1
-revision: 710b6dcc-b1b5-4494-b6f1-47de459423df
+revision: 7c6b4ba1-3ec7-4bcb-ad9b-3c93224b0a62
 
 ----field----
 field: {4DF6DA21-E745-444C-956E-1D4A96AB8821}
@@ -35,6 +35,13 @@ key: header
 content-length: 12
 
 Shrink Image
+----field----
+field: {A1A31A93-C4A0-4396-B629-67C33001A3CF}
+name: Tooltip
+key: tooltip
+content-length: 21
+
+Shrink Selected Image
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -62,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-710b6dcc-b1b5-4494-b6f1-47de459423df
+7c6b4ba1-3ec7-4bcb-ad9b-3c93224b0a62
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20131031T125455:635188208955403514
+20160929T143343:636107564233017738
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

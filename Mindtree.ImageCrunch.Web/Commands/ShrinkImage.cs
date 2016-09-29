@@ -44,7 +44,7 @@ namespace Mindtree.ImageCrunch.Web.Commands
                 mi = new MediaItem(item);
                 crunchOptions = new CrunchOptions();
                 objFillSetting = new FillSetting();
-                TenantSetting objTennantSetting = objFillSetting.getSetting(mi.MediaPath, mi.Database.Name);
+                TenantSetting objTennantSetting = objFillSetting.getSetting(mi.MediaPath, mi.Database.Name, mi.InnerItem.Language.ToString());
                 if (mi.Size > objTennantSetting.MinimumKBSize && mi.Size < objTennantSetting.MaxImageSize)
                 {
                     crunchOptions.APIKey = objTennantSetting.ApiKey;

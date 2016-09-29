@@ -26,7 +26,7 @@ ImageCrunch:CrunchMediaTree
 ----version----
 language: en
 version: 1
-revision: c03fc2ac-1a7a-49e5-9760-6f73ceb495d8
+revision: e9831cc5-1efa-496e-bc6d-24fd418b5a59
 
 ----field----
 field: {4DF6DA21-E745-444C-956E-1D4A96AB8821}
@@ -35,6 +35,13 @@ key: header
 content-length: 11
 
 Shrink Tree
+----field----
+field: {A1A31A93-C4A0-4396-B629-67C33001A3CF}
+name: Tooltip
+key: tooltip
+content-length: 56
+
+Shrink children images of selected item in Media Library
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -62,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c03fc2ac-1a7a-49e5-9760-6f73ceb495d8
+e9831cc5-1efa-496e-bc6d-24fd418b5a59
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20131031T135010:635188242109568264
+20160929T143836:636107567165965326
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
