@@ -2,7 +2,7 @@
 version: 1
 id: {A9028864-70AF-4EFA-9A46-BBB44C6064F8}
 database: master
-path: /sitecore/system/Modules/ImageCore/AnotherHome
+path: /sitecore/system/Modules/ImageCrunch/AnotherHome
 parent: {D0EA3B7F-99BE-4857-B0BE-135EB38C0510}
 name: AnotherHome
 master: {00000000-0000-0000-0000-000000000000}

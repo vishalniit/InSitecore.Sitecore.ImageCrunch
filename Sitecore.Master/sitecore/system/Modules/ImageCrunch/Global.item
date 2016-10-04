@@ -2,7 +2,7 @@
 version: 1
 id: {9FFD4B78-D62A-491B-BB63-48F7319F2B2A}
 database: master
-path: /sitecore/system/Modules/ImageCore/Global
+path: /sitecore/system/Modules/ImageCrunch/Global
 parent: {D0EA3B7F-99BE-4857-B0BE-135EB38C0510}
 name: Global
 master: {00000000-0000-0000-0000-000000000000}

@@ -2,7 +2,7 @@
 version: 1
 id: {AD6F35C0-8632-4FA1-A021-BCC19E86BFD2}
 database: master
-path: /sitecore/templates/Modules/ImageCore/Settings
+path: /sitecore/templates/Modules/ImageCrunch/Settings
 parent: {AA8BCAD2-3CFB-4D71-ADFF-1A912E10E399}
 name: Settings
 master: {00000000-0000-0000-0000-000000000000}

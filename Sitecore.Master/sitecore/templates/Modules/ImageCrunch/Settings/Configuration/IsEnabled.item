@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {4F1FEDB6-3F4E-4E8A-B3F0-8CF74266CD98}
+id: {28C99740-8E5C-4E77-AE0A-5FEEC099D060}
 database: master
-path: /sitecore/templates/Modules/ImageCore/Settings/Configuration/Lossy
+path: /sitecore/templates/Modules/ImageCrunch/Settings/Configuration/IsEnabled
 parent: {B274CD59-5F30-41EA-9AE2-1FB82406FB26}
-name: Lossy
+name: IsEnabled
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}
 templatekey: Template field
@@ -22,40 +22,40 @@ name: __Sortorder
 key: __sortorder
 content-length: 3
 
-200
+400
 ----version----
 language: en
 version: 1
-revision: 06e7876a-d755-4d5c-892a-7960897fa2c9
+revision: 2de13d31-a0dc-45ca-a54c-55bf1791621e
 
 ----field----
 field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
 name: Title
 key: title
-content-length: 32
+content-length: 30
 
-Deep Compression or Optimization
+Allow you to turn it off or on
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 15
 
-20160907T141355
+20160908T140425
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-06e7876a-d755-4d5c-892a-7960897fa2c9
+2de13d31-a0dc-45ca-a54c-55bf1791621e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20160926T163611:636105045710969035
+20160929T115325:636107468059757056
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

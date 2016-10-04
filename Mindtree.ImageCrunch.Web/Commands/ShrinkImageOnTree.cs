@@ -59,6 +59,7 @@ namespace Mindtree.ImageCrunch.Web.Commands
                             }
                         }
                     }
+                    else
                     {
                         Log.Info(string.Format("Image Size is {0} {1}", mi.Size, ",KB which is not fit in minimum & maximum size defined in setting"), this);
                     }

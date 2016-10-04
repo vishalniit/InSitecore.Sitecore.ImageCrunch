@@ -2,7 +2,7 @@
 version: 1
 id: {6B490DF4-BB98-4658-86C5-68CE84C0381F}
 database: master
-path: /sitecore/system/Modules/ImageCore/Home
+path: /sitecore/system/Modules/ImageCrunch/Home
 parent: {D0EA3B7F-99BE-4857-B0BE-135EB38C0510}
 name: Home
 master: {00000000-0000-0000-0000-000000000000}

@@ -36,6 +36,7 @@ namespace Mindtree.ImageCrunch.Pipelines
                             //As of now API is based out of post approach
                             CrunchImage.ProcessMediaItem(mi, crunchOptions);
                         }
+                        else
                         {
                             Log.Info(string.Format("Image Size is {0} {1}", mi.Size, ",KB which is not fit in minimum & maximum size defined in setting"), this);
                         }
