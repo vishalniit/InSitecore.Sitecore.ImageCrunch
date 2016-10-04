@@ -2,9 +2,9 @@
 version: 1
 id: {F5DD05DC-0F16-45D3-8D12-FDD37D32D6C2}
 database: master
-path: /sitecore/system/Modules/ImageCore
+path: /sitecore/system/Modules/ImageCrunch
 parent: {08477468-D438-43D4-9D6A-6D84A611971C}
-name: ImageCore
+name: ImageCrunch
 master: {00000000-0000-0000-0000-000000000000}
 template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
 templatekey: Folder
@@ -20,7 +20,7 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: 8ccb0f4d-5a76-4323-9ca1-d2503e5395ed
+revision: a941c077-3a14-4652-9267-dc218abc7625
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -42,14 +42,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8ccb0f4d-5a76-4323-9ca1-d2503e5395ed
+a941c077-3a14-4652-9267-dc218abc7625
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160929T160054Z
+20161004T194300Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
