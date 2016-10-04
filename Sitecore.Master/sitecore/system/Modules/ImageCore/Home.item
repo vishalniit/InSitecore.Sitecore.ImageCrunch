@@ -13,7 +13,7 @@ created: 20160929T160408:636107618487970000
 ----version----
 language: en
 version: 1
-revision: f0cc1def-422b-41bd-a0cc-6bddc1a971da
+revision: f9150929-d4f9-45b8-b616-722ca99f981f
 
 ----field----
 field: {4C594C57-2DD3-4EFA-B15D-045EDB0F6958}
@@ -30,6 +30,13 @@ content-length: 40
 
 bd056ee791b5643057a38aff80834e847d0a5683
 ----field----
+field: {B411BD7B-8F06-423C-8E20-9D509D436C66}
+name: SiteMediaFolderPath
+key: sitemediafolderpath
+content-length: 38
+
+{F4713112-EAF1-4338-B495-02D930E32E3A}
+----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -42,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f0cc1def-422b-41bd-a0cc-6bddc1a971da
+f9150929-d4f9-45b8-b616-722ca99f981f
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160929T160443Z
+20160929T173407Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

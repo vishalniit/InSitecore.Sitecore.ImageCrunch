@@ -33,6 +33,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sitecore8.2", "Sitecore8.2", "{37C7D0CF-3F05-43F0-854B-C6DD98E5F57D}"
 	ProjectSection(SolutionItems) = preProject
 		Libs\Sitecore8.2\Sitecore.Kernel.dll = Libs\Sitecore8.2\Sitecore.Kernel.dll
+		Libs\Sitecore8.2\Sitecore.Speak.Client.dll = Libs\Sitecore8.2\Sitecore.Speak.Client.dll
 	EndProjectSection
 EndProject
 Global

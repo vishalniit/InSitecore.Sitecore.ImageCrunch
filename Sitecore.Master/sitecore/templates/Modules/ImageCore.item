@@ -3,7 +3,7 @@ version: 1
 id: {04649592-1DA6-4B8F-95CA-2E919367B8EF}
 database: master
 path: /sitecore/templates/Modules/ImageCore
-parent: {C7418D45-0BD5-4CE5-8A3E-5828D1A1E1F6}
+parent: {1F148F17-E88B-4758-BD37-693A6A1780E1}
 name: ImageCore
 master: {00000000-0000-0000-0000-000000000000}
 template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}

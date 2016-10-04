@@ -9,6 +9,7 @@ using Sitecore.Diagnostics;
 
 namespace Mindtree.ImageCrunch.Web.Commands
 {
+    [Serializable]
     public class ShrinkImage : Command
     {
         public MediaItem mi { get; set; }
@@ -22,10 +23,12 @@ namespace Mindtree.ImageCrunch.Web.Commands
                 return;
             }
             objFillSetting = null;
+            //Sitecore.Context.ClientPage.
             ProgressBox.Execute("Shrink Image", "Shrink Image", new ProgressBoxMethod(this.Shrink), new object[1]
             {
                 context.Items[0]
             });
+            //Sitecore.Jobs.JobManager.Start(new Sitecore.Jobs.JobOptions("Shrink Image", "Shrink Image", Sitecore.Context.Site.Name, new object[1] { context.Items[0] }, "Shrink"));
         }
 
         protected virtual void Shrink(object[] parameters)
@@ -54,6 +57,7 @@ namespace Mindtree.ImageCrunch.Web.Commands
                     crunchOptions.enhance = objTennantSetting.Enhance;
                     CrunchImage.ProcessMediaItem(mi, crunchOptions);
                 }
+                else
                 {
                     Log.Info(string.Format("Image Size is {0} {1}", mi.Size, ",KB which is not fit in minimum & maximum size defined in setting"), this);
                 }
