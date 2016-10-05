@@ -1,27 +1,41 @@
 ----item----
 version: 1
-id: {84493875-BC12-4F92-8803-AF66146A1046}
+id: {F63A94F0-7ADC-4954-B188-3600421542D6}
 database: master
-path: /sitecore/templates/Modules/ImageCore/Settings/Context
-parent: {95209A83-9ED4-4A24-A7FC-4FCCE1BD6FAA}
-name: Context
+path: /sitecore/templates/Modules/ImageCrunch/Settings/Configuration/Enhance
+parent: {7B01E234-B365-485B-B2B9-729D9571369E}
+name: Enhance
 master: {00000000-0000-0000-0000-000000000000}
-template: {E269FBB5-3750-427A-9149-7AA950B49301}
-templatekey: Template section
-created: 20160929T155022:636107610227270000
+template: {455A3E98-A627-4B40-8035-E683A0331AC7}
+templatekey: Template field
+created: 20160929T155022:636107610221470000
 
+----field----
+field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
+name: Type
+key: type
+content-length: 8
+
+Checkbox
 ----field----
 field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
 name: __Sortorder
 key: __sortorder
 content-length: 3
 
-200
+300
 ----version----
 language: en
 version: 1
-revision: 2fa7e6a3-2961-4189-86a3-b2057d65ef05
+revision: 0f0d0a3a-9155-4193-a8d7-db57dfad2063
 
+----field----
+field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
+name: Title
+key: title
+content-length: 82
+
+This will enhance the image after compression - may reduce the optimization effect
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -30,26 +44,19 @@ content-length: 16
 
 20160929T155022Z
 ----field----
-field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
-name: __Created by
-key: __created by
-content-length: 14
-
-sitecore\admin
-----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-2fa7e6a3-2961-4189-86a3-b2057d65ef05
+0f0d0a3a-9155-4193-a8d7-db57dfad2063
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160929T155022Z
+20161005T202017Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

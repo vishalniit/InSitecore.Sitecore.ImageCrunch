@@ -1,41 +1,41 @@
 ----item----
 version: 1
-id: {F63A94F0-7ADC-4954-B188-3600421542D6}
+id: {4C594C57-2DD3-4EFA-B15D-045EDB0F6958}
 database: master
-path: /sitecore/templates/Modules/ImageCore/Settings/Configuration/Enhance
+path: /sitecore/templates/Modules/ImageCrunch/Settings/Configuration/KrakenApiKey
 parent: {7B01E234-B365-485B-B2B9-729D9571369E}
-name: Enhance
+name: KrakenApiKey
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}
 templatekey: Template field
-created: 20160929T155022:636107610221470000
+created: 20160929T155022:636107610224230000
 
 ----field----
 field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
 name: Type
 key: type
-content-length: 8
+content-length: 16
 
-Checkbox
+Single-Line Text
 ----field----
 field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
 name: __Sortorder
 key: __sortorder
 content-length: 3
 
-300
+600
 ----version----
 language: en
 version: 1
-revision: 9685bc1a-294f-4389-8405-3eb0ab63d10e
+revision: 956c5c4a-1d62-4666-ac5d-dc76a8353990
 
 ----field----
 field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
 name: Title
 key: title
-content-length: 82
+content-length: 28
 
-This will enhance the image after compression - may reduce the optimization effect
+Please insert Kraken API key
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-9685bc1a-294f-4389-8405-3eb0ab63d10e
+956c5c4a-1d62-4666-ac5d-dc76a8353990
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160929T155303Z
+20161005T202017Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

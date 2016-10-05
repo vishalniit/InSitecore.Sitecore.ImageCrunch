@@ -1,14 +1,14 @@
 ----item----
 version: 1
-id: {31BA42D7-53D3-48BC-A832-B98412AD5068}
+id: {B411BD7B-8F06-423C-8E20-9D509D436C66}
 database: master
-path: /sitecore/templates/Modules/ImageCore/Settings/Configuration/Lossy
-parent: {7B01E234-B365-485B-B2B9-729D9571369E}
-name: Lossy
+path: /sitecore/templates/Modules/ImageCrunch/Settings/Context/SiteMediaFolderPath
+parent: {84493875-BC12-4F92-8803-AF66146A1046}
+name: SiteMediaFolderPath
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}
 templatekey: Template field
-created: 20160929T155022:636107610220530000
+created: 20160929T155022:636107610228070000
 
 ----field----
 field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
@@ -16,26 +16,33 @@ name: Type
 key: type
 content-length: 8
 
-Checkbox
+Droptree
+----field----
+field: {1EB8AE32-E190-44A6-968D-ED904C794EBF}
+name: Source
+key: source
+content-length: 23
+
+/sitecore/media library
 ----field----
 field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
 name: __Sortorder
 key: __sortorder
 content-length: 3
 
-200
+100
 ----version----
 language: en
 version: 1
-revision: 11ec3c56-adba-4534-92e2-248567b1bfa0
+revision: 86a4fb20-15ac-4026-847e-627db550171d
 
 ----field----
 field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
 name: Title
 key: title
-content-length: 32
+content-length: 65
 
-Deep Compression or Optimization
+Select the site media folder - create this item only one per site
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -49,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-11ec3c56-adba-4534-92e2-248567b1bfa0
+86a4fb20-15ac-4026-847e-627db550171d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160929T155228Z
+20161005T202017Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

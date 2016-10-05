@@ -2,7 +2,7 @@
 version: 1
 id: {7B2B9B0E-786D-45D4-8620-47D1CA451054}
 database: master
-path: /sitecore/templates/Modules/ImageCore/Settings/__Standard Values
+path: /sitecore/templates/Modules/ImageCrunch/Settings/__Standard Values
 parent: {95209A83-9ED4-4A24-A7FC-4FCCE1BD6FAA}
 name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}
