@@ -64,7 +64,6 @@
     <Compile Include="Interfaces\ICruncher.cs" />
     <Compile Include="Pipelines\AttachFile.cs" />
     <Compile Include="Pipelines\FillSetting.cs" />
-    <Compile Include="Pipelines\Save.cs" />
     <Compile Include="Pipelines\Upload.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

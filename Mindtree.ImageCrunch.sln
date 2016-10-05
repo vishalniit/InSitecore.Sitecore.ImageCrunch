@@ -27,6 +27,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sitecore7.2", "Sitecore7.2", "{32E58DBC-10D6-47CC-BFC9-2FA0FAAAEDF4}"
 	ProjectSection(SolutionItems) = preProject
 		Libs\Sitecore7.2\Sitecore.Kernel.dll = Libs\Sitecore7.2\Sitecore.Kernel.dll
+		Libs\Sitecore7.2\Sitecore.Speak.Client.dll = Libs\Sitecore7.2\Sitecore.Speak.Client.dll
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindtree.ImageCrunch.Web.Sheer", "Mindtree.ImageCrunch.Web\Mindtree.ImageCrunch.Web.Sheer.csproj", "{E36445EF-B04A-43D2-A259-355FB6390044}"
