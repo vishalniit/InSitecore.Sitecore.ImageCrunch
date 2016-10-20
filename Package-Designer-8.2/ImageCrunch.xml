@@ -1,0 +1,107 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>ImageCrunch-82</PackageName>
+      <Author>Vishal Gupta</Author>
+      <Version>1.0</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme>Coming Soon..</Readme>
+      <Publisher>Mindtree Ltd.,</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Ribbons/Chunks/Shrink/{BA24C7CE-2D8C-44C8-B875-C942674BBF03}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Ribbons/Chunks/Shrink/Shrink Image/{D036A8B5-0DCB-4A53-942B-25E804EFDF5B}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Ribbons/Chunks/Shrink/Shrink Tree/{46A5C212-364B-4C5D-BB57-2DC6D810BF85}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Ribbons/Strips/Configure/Shrink/{C0AFD519-67C3-485A-BCB1-21439DE49665}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>CoreData</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/media library/AnotherHome/{1252D377-54AE-41D1-A566-14117362BB04}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/AnotherHome/Images/{5A6E18A9-263C-4EEE-9CC7-51135C159501}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Home/{F4713112-EAF1-4338-B495-02D930E32E3A}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Home/Images/{2EED14BC-5D30-4C29-B9DB-F63E76F0011C}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/ImageCrunch/{F5DD05DC-0F16-45D3-8D12-FDD37D32D6C2}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/ImageCrunch/Global/{FCCAC6F2-01C4-4241-AE81-AC8427CEBC8C}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/ImageCrunch/Home/{FF796A72-6DC0-4D46-9973-04A9EEAC75EE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/ImageCrunch/{04649592-1DA6-4B8F-95CA-2E919367B8EF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/ImageCrunch/Settings/__Standard Values/{7B2B9B0E-786D-45D4-8620-47D1CA451054}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/ImageCrunch/Settings/{95209A83-9ED4-4A24-A7FC-4FCCE1BD6FAA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/ImageCrunch/Settings/Configuration/{7B01E234-B365-485B-B2B9-729D9571369E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/ImageCrunch/Settings/Configuration/Enhance/{F63A94F0-7ADC-4954-B188-3600421542D6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/ImageCrunch/Settings/Configuration/IsDev/{BC7408DC-E6B5-49DF-9FBB-35CCCB4FFF06}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/ImageCrunch/Settings/Configuration/IsEnabled/{22ADEB58-CD6E-44CB-8276-83C742076C94}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/ImageCrunch/Settings/Configuration/KrakenApiKey/{4C594C57-2DD3-4EFA-B15D-045EDB0F6958}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/ImageCrunch/Settings/Configuration/KrakenApiSecret/{39F99962-1026-4AEF-BCD8-9E3FA1F9577D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/ImageCrunch/Settings/Configuration/Lossy/{31BA42D7-53D3-48BC-A832-B98412AD5068}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/ImageCrunch/Settings/Configuration/MaxImageSizeKB/{E0ED19E5-00D5-440C-9AED-0AE5551D89CB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/ImageCrunch/Settings/Configuration/MinimumImageSizeKB/{AE0B2671-6E17-49B4-B0F0-34F8FE1F1988}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/ImageCrunch/Settings/Context/{84493875-BC12-4F92-8803-AF66146A1046}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/ImageCrunch/Settings/Context/SiteMediaFolderPath/{B411BD7B-8F06-423C-8E20-9D509D436C66}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>MasterData</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/Mindtree.ImageCrunch.config</x-item>
+        <x-item>/bin/Mindtree.ImageCrunch.dll</x-item>
+        <x-item>/bin/Mindtree.ImageCrunch.Kraken.dll</x-item>
+        <x-item>/bin/Mindtree.ImageCrunch.Web.82.dll</x-item>
+        <x-item>/bin/MindtreeSitecore.Common.dll</x-item>
+        <x-item>/sitecore/shell/client/Business Component Library/Layouts/Renderings/Forms/Uploader/Uploader.js</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindtree.ImageCrunch", "Mindtree.ImageCrunch\Mindtree.ImageCrunch.csproj", "{118E8E69-0638-4653-8AB4-D7553C2E5FA3}"
 EndProject
@@ -34,6 +34,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sitecore8.2", "Sitecore8.2"
 	ProjectSection(SolutionItems) = preProject
 		Libs\Sitecore8.2\Sitecore.Kernel.dll = Libs\Sitecore8.2\Sitecore.Kernel.dll
 		Libs\Sitecore8.2\Sitecore.Speak.Client.dll = Libs\Sitecore8.2\Sitecore.Speak.Client.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sitecore-Package-8.2", "Sitecore-Package-8.2", "{32CBA7D6-1380-46DE-A069-1E76A36A2996}"
+	ProjectSection(SolutionItems) = preProject
+		Sitecore-Package-8.2\ImageCrunch-82-1.0.zip = Sitecore-Package-8.2\ImageCrunch-82-1.0.zip
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Package-Designer-8.2", "Package-Designer-8.2", "{7DCAF83A-E67D-41D6-8A0F-D5ECFDCEF898}"
+	ProjectSection(SolutionItems) = preProject
+		Package-Designer-8.2\ImageCrunch.xml = Package-Designer-8.2\ImageCrunch.xml
 	EndProjectSection
 EndProject
 Global
