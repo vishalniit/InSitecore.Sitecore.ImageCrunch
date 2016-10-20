@@ -31,12 +31,23 @@ namespace Mindtree.ImageCrunch.Pipelines
         private Item GetSettingItem(Item itmRootSettingPath, string path)
         {
             Item itm = null;
+            //this to make sure that global setting is picked up
+            string newpath = "/Media Library" + path;
             if (itmRootSettingPath != null)
             {
-                var fieldvalues = from p in itmRootSettingPath.Children
-                                  where path.Contains("/" + MindtreeSitecore.Common.Functions.GetItem(p.Fields["SiteMediaFolderPath"].Value, itmRootSettingPath.Database.Name, itmRootSettingPath.Language.ToString()).DisplayName + "/")
-                                  select p;
-                itm = fieldvalues.FirstOrDefault<Item>();
+                var items = from p in itmRootSettingPath.Children
+                            where newpath.Contains("/" + MindtreeSitecore.Common.Functions.GetItem(p.Fields["SiteMediaFolderPath"].Value, itmRootSettingPath.Database.Name, itmRootSettingPath.Language.ToString()).DisplayName + "/")
+                            select p;
+                //this to make sure that only regional setting is effective if present
+                if (items.Count<Item>() > 1)
+                {
+                    items = from p in items
+                            where path.Contains(p.DisplayName)
+                            select p;
+                    itm = items.FirstOrDefault<Item>();
+                }
+                else
+                    itm = items.FirstOrDefault<Item>();
             }
             return itm;
         }

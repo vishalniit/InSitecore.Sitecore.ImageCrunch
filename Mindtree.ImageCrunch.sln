@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindtree.ImageCrunch", "Mindtree.ImageCrunch\Mindtree.ImageCrunch.csproj", "{118E8E69-0638-4653-8AB4-D7553C2E5FA3}"
 EndProject
@@ -35,6 +35,16 @@ EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Sitecore.Master", "Sitecore.Master\Sitecore.Master.scproj", "{EF3A3D8E-4EBD-462C-AF86-D3DA5ECC6231}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindtreeSitecore.Common", "Mindtree.Sitecore.Common\MindtreeSitecore.Common.csproj", "{7D407201-631C-4825-ADDD-9BC2463AF88D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PackageDesigner-XML-7.2", "PackageDesigner-XML-7.2", "{755BB393-553D-481E-B9B6-7B0955777D07}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\OldImageCrunch\Sandbox\Data\packages\ImageCrunch-1.0.xml = ..\..\OldImageCrunch\Sandbox\Data\packages\ImageCrunch-1.0.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SitecorePackage-7.2", "SitecorePackage-7.2", "{3B5039E9-E893-47A4-B438-BCC4DD3DBC78}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\M1025887\Downloads\ImageCrunch-7.2-1.0.zip = C:\Users\M1025887\Downloads\ImageCrunch-7.2-1.0.zip
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
