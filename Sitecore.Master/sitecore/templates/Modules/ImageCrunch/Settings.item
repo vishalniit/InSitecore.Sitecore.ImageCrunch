@@ -23,10 +23,17 @@ key: __standard values
 content-length: 38
 
 {5EFF3197-CA66-4430-8691-21000EE11BB5}
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 24
+
+Software/32x32/front.png
 ----version----
 language: en
 version: 1
-revision: b2f20489-1b48-417c-b593-92d698b57884
+revision: 14783528-3c13-4300-b9fd-ca06ec1d770f
 
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
@@ -55,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b2f20489-1b48-417c-b593-92d698b57884
+14783528-3c13-4300-b9fd-ca06ec1d770f
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20160926T163936:636105047761378668
+20161103T154122:636137844821168882
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

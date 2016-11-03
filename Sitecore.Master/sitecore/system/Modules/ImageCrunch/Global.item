@@ -12,22 +12,22 @@ templatekey: Settings
 ----version----
 language: en
 version: 1
-revision: a48aae72-a8c3-4a1c-9cf9-b1c071e1d0ff
+revision: d9c72fe6-89dc-4dac-aa87-cd43379fbe8f
 
 ----field----
 field: {4EA57D15-6E45-408A-8C2D-BE02040ABD4D}
 name: KrakenApiKey
 key: krakenapikey
-content-length: 32
+content-length: 14
 
-19d2d9293c329de7ac908579074d65f6
+Insert API Key
 ----field----
 field: {1AE4ACC5-6E92-45FB-B682-5F41EA5E4510}
 name: KrakenApiSecret
 key: krakenapisecret
-content-length: 40
+content-length: 17
 
-bd056ee791b5643057a38aff80834e847d0a5683
+Insert API Secret
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -41,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-a48aae72-a8c3-4a1c-9cf9-b1c071e1d0ff
+d9c72fe6-89dc-4dac-aa87-cd43379fbe8f
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20160926T164230:636105049506506942
+20161103T154436:636137846767175724
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

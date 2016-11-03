@@ -12,7 +12,7 @@ templatekey: Settings
 ----version----
 language: en
 version: 1
-revision: 7bc3b437-18de-4951-bf57-ffd019ab223a
+revision: cc4af317-41ec-4480-a376-a8b13f564b0d
 
 ----field----
 field: {4F1FEDB6-3F4E-4E8A-B3F0-8CF74266CD98}
@@ -46,16 +46,16 @@ content-length: 2
 field: {4EA57D15-6E45-408A-8C2D-BE02040ABD4D}
 name: KrakenApiKey
 key: krakenapikey
-content-length: 32
+content-length: 14
 
-19d2d9293c329de7ac908579074d65f6
+Insert API Key
 ----field----
 field: {1AE4ACC5-6E92-45FB-B682-5F41EA5E4510}
 name: KrakenApiSecret
 key: krakenapisecret
-content-length: 40
+content-length: 17
 
-bd056ee791b5643057a38aff80834e847d0a5683
+Insert API Secret
 ----field----
 field: {4D1CF233-37D2-4D9E-BBD7-00700E172A56}
 name: MaxImageSizeKB
@@ -97,14 +97,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-7bc3b437-18de-4951-bf57-ffd019ab223a
+cc4af317-41ec-4480-a376-a8b13f564b0d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20160927T235708:636106174289399161
+20161103T154455:636137846959025724
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
