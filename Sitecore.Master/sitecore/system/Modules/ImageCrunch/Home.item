@@ -13,22 +13,22 @@ created: 20160929T160408:636107618487970000
 ----version----
 language: en
 version: 1
-revision: f9150929-d4f9-45b8-b616-722ca99f981f
+revision: 7b79be67-688e-4c88-a293-abb5b4cd9d4e
 
 ----field----
 field: {4C594C57-2DD3-4EFA-B15D-045EDB0F6958}
 name: KrakenApiKey
 key: krakenapikey
-content-length: 32
+content-length: 13
 
-19d2d9293c329de7ac908579074d65f6
+Enter API Key
 ----field----
 field: {39F99962-1026-4AEF-BCD8-9E3FA1F9577D}
 name: KrakenApiSecret
 key: krakenapisecret
-content-length: 40
+content-length: 16
 
-bd056ee791b5643057a38aff80834e847d0a5683
+Enter API Secret
 ----field----
 field: {B411BD7B-8F06-423C-8E20-9D509D436C66}
 name: SiteMediaFolderPath
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f9150929-d4f9-45b8-b616-722ca99f981f
+7b79be67-688e-4c88-a293-abb5b4cd9d4e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160929T173407Z
+20161103T182716Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
