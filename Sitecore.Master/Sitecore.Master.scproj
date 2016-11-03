@@ -7,9 +7,9 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ef3a3d8e-4ebd-462c-af86-d3da5ecc6231</ProjectGuid>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
-    <SourceWebPhysicalPath>..\Mindtree.ImageCrunch.Web</SourceWebPhysicalPath>
-    <SourceWebProject>{e36445ef-b04a-43d2-a259-355fb6390044}|Mindtree.ImageCrunch.Web\Mindtree.ImageCrunch.Web.Sheer.csproj</SourceWebProject>
-    <SourceWebVirtualPath>/Mindtree.ImageCrunch.Web.Sheer.csproj</SourceWebVirtualPath>
+    <SourceWebPhysicalPath>..\InSitecore.ImageCrunch.Web</SourceWebPhysicalPath>
+    <SourceWebProject>{e36445ef-b04a-43d2-a259-355fb6390044}|InSitecore.ImageCrunch.Web\InSitecore.ImageCrunch.Web.Sheer.csproj</SourceWebProject>
+    <SourceWebVirtualPath>/InSitecore.ImageCrunch.Web.Sheer.csproj</SourceWebVirtualPath>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <EnableUpdateable>true</EnableUpdateable>
     <UseMerge>true</UseMerge>
@@ -50,9 +50,9 @@
     </AssemblyAttributes>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Mindtree.ImageCrunch.Web\Mindtree.ImageCrunch.Web.Sheer.csproj">
+    <ProjectReference Include="..\InSitecore.ImageCrunch.Web\InSitecore.ImageCrunch.Web.Sheer.csproj">
       <Project>{e36445ef-b04a-43d2-a259-355fb6390044}</Project>
-      <Name>Mindtree.ImageCrunch.Web.Sheer</Name>
+      <Name>InSitecore.ImageCrunch.Web.Sheer</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -66,6 +66,7 @@
     </SitecoreItem>
     <SitecoreItem Include="sitecore\media library\AnotherHome\Images.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\media library\Home.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
@@ -73,6 +74,7 @@
     </SitecoreItem>
     <SitecoreItem Include="sitecore\media library\Home\Images.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\system.item">
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
