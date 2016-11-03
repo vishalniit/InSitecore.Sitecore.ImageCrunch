@@ -16,3 +16,5 @@ You can also crunch existing media items by selecting a single image and click o
 Figure 2(Please look into Sitecore Market Place website and read Documentation Section)
 You can also shrink image in bulk by shrinking whole tree while selecting a folder and click on Shrink Tree button as shown in Figure 2.
 This Image Crunch feature will also work even when you attach the media on existing image items.
+
+More can be read about it here http://insitecore.blogspot.com/2016/11/imagecrunch_40.html
