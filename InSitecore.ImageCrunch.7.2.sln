@@ -37,6 +37,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InSitecoreSitecore.Common", "InSitecore.Sitecore.Common\InSitecoreSitecore.Common.csproj", "{7D407201-631C-4825-ADDD-9BC2463AF88D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PackageDesigner-XML-7.2", "PackageDesigner-XML-7.2", "{755BB393-553D-481E-B9B6-7B0955777D07}"
+	ProjectSection(SolutionItems) = preProject
+		PackageDesigner-XML-7.2\ImageCrunch-1.0.xml = PackageDesigner-XML-7.2\ImageCrunch-1.0.xml
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SitecorePackage-7.2", "SitecorePackage-7.2", "{3B5039E9-E893-47A4-B438-BCC4DD3DBC78}"
 	ProjectSection(SolutionItems) = preProject
