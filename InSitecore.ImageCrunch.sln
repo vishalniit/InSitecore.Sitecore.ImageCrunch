@@ -1,0 +1,134 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InSitecore.ImageCrunch", "InSitecore.ImageCrunch\InSitecore.ImageCrunch.csproj", "{118E8E69-0638-4653-8AB4-D7553C2E5FA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InSitecore.ImageCrunch.SmushIt.Tests", "InSitecore.ImageCrunch.SmushIt.Tests\InSitecore.ImageCrunch.SmushIt.Tests.csproj", "{43AF225E-E08A-4214-A25B-3E39A036A6CC}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Sitecore.Core.82", "Sitecore.Core\Sitecore.Core.82.scproj", "{4CECF013-0E69-405A-8A36-E8E89996FEE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InSitecore.ImageCrunch.SmushIt", "InSitecore.ImageCrunch.SmushIt\InSitecore.ImageCrunch.SmushIt.csproj", "{8C66B28A-3404-48BC-A25C-926ECFF85F63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F010DABC-D9AC-46AE-B786-376DB1201E58}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InSitecore.ImageCrunch.Kraken", "InSitecore.ImageCrunch.Kraken\InSitecore.ImageCrunch.Kraken.csproj", "{E7A933D7-438E-4EA0-860B-A5C35532BFAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InSitecore.ImageCrunch.Kraken.Tests", "InSitecore.ImageCrunch.Kraken.Tests\InSitecore.ImageCrunch.Kraken.Tests.csproj", "{4A6BFCC4-4B2E-4FCC-8009-0D169F1DE087}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{15C6E8BA-3B9D-449B-A228-4E709E8B07A5}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Sitecore.Master.82", "Sitecore.Master\Sitecore.Master.82.scproj", "{EF3A3D8E-4EBD-462C-AF86-D3DA5ECC6231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InSitecoreSitecore.Common", "InSitecore.Sitecore.Common\InSitecoreSitecore.Common.csproj", "{7D407201-631C-4825-ADDD-9BC2463AF88D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InSitecore.ImageCrunch.Web.82", "InSitecore.ImageCrunch.Web.82\InSitecore.ImageCrunch.Web.82.csproj", "{E36445EF-B04A-43D2-A259-355FB6390044}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sitecore8.2", "Sitecore8.2", "{37C7D0CF-3F05-43F0-854B-C6DD98E5F57D}"
+	ProjectSection(SolutionItems) = preProject
+		Libs\Sitecore8.2\Sitecore.Kernel.dll = Libs\Sitecore8.2\Sitecore.Kernel.dll
+		Libs\Sitecore8.2\Sitecore.Speak.Client.dll = Libs\Sitecore8.2\Sitecore.Speak.Client.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sitecore-Package-8.2", "Sitecore-Package-8.2", "{32CBA7D6-1380-46DE-A069-1E76A36A2996}"
+	ProjectSection(SolutionItems) = preProject
+		Sitecore-Package-8.2\ImageCrunch-82-1.0.zip = Sitecore-Package-8.2\ImageCrunch-82-1.0.zip
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Package-Designer-8.2", "Package-Designer-8.2", "{7DCAF83A-E67D-41D6-8A0F-D5ECFDCEF898}"
+	ProjectSection(SolutionItems) = preProject
+		Package-Designer-8.2\ImageCrunch.xml = Package-Designer-8.2\ImageCrunch.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug.Kraken|Any CPU = Debug.Kraken|Any CPU
+		Debug.SmushIt|Any CPU = Debug.SmushIt|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{118E8E69-0638-4653-8AB4-D7553C2E5FA3}.Debug.Kraken|Any CPU.ActiveCfg = Debug|Any CPU
+		{118E8E69-0638-4653-8AB4-D7553C2E5FA3}.Debug.Kraken|Any CPU.Build.0 = Debug|Any CPU
+		{118E8E69-0638-4653-8AB4-D7553C2E5FA3}.Debug.SmushIt|Any CPU.ActiveCfg = Debug|Any CPU
+		{118E8E69-0638-4653-8AB4-D7553C2E5FA3}.Debug.SmushIt|Any CPU.Build.0 = Debug|Any CPU
+		{118E8E69-0638-4653-8AB4-D7553C2E5FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118E8E69-0638-4653-8AB4-D7553C2E5FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118E8E69-0638-4653-8AB4-D7553C2E5FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118E8E69-0638-4653-8AB4-D7553C2E5FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43AF225E-E08A-4214-A25B-3E39A036A6CC}.Debug.Kraken|Any CPU.ActiveCfg = Debug|Any CPU
+		{43AF225E-E08A-4214-A25B-3E39A036A6CC}.Debug.SmushIt|Any CPU.ActiveCfg = Debug|Any CPU
+		{43AF225E-E08A-4214-A25B-3E39A036A6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43AF225E-E08A-4214-A25B-3E39A036A6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43AF225E-E08A-4214-A25B-3E39A036A6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43AF225E-E08A-4214-A25B-3E39A036A6CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CECF013-0E69-405A-8A36-E8E89996FEE6}.Debug.Kraken|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CECF013-0E69-405A-8A36-E8E89996FEE6}.Debug.SmushIt|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CECF013-0E69-405A-8A36-E8E89996FEE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CECF013-0E69-405A-8A36-E8E89996FEE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CECF013-0E69-405A-8A36-E8E89996FEE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CECF013-0E69-405A-8A36-E8E89996FEE6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8C66B28A-3404-48BC-A25C-926ECFF85F63}.Debug.Kraken|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C66B28A-3404-48BC-A25C-926ECFF85F63}.Debug.SmushIt|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C66B28A-3404-48BC-A25C-926ECFF85F63}.Debug.SmushIt|Any CPU.Build.0 = Debug|Any CPU
+		{8C66B28A-3404-48BC-A25C-926ECFF85F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C66B28A-3404-48BC-A25C-926ECFF85F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C66B28A-3404-48BC-A25C-926ECFF85F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C66B28A-3404-48BC-A25C-926ECFF85F63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A933D7-438E-4EA0-860B-A5C35532BFAB}.Debug.Kraken|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A933D7-438E-4EA0-860B-A5C35532BFAB}.Debug.Kraken|Any CPU.Build.0 = Debug|Any CPU
+		{E7A933D7-438E-4EA0-860B-A5C35532BFAB}.Debug.SmushIt|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A933D7-438E-4EA0-860B-A5C35532BFAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A933D7-438E-4EA0-860B-A5C35532BFAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A933D7-438E-4EA0-860B-A5C35532BFAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A933D7-438E-4EA0-860B-A5C35532BFAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A6BFCC4-4B2E-4FCC-8009-0D169F1DE087}.Debug.Kraken|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6BFCC4-4B2E-4FCC-8009-0D169F1DE087}.Debug.Kraken|Any CPU.Build.0 = Debug|Any CPU
+		{4A6BFCC4-4B2E-4FCC-8009-0D169F1DE087}.Debug.SmushIt|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6BFCC4-4B2E-4FCC-8009-0D169F1DE087}.Debug.SmushIt|Any CPU.Build.0 = Debug|Any CPU
+		{4A6BFCC4-4B2E-4FCC-8009-0D169F1DE087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6BFCC4-4B2E-4FCC-8009-0D169F1DE087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6BFCC4-4B2E-4FCC-8009-0D169F1DE087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6BFCC4-4B2E-4FCC-8009-0D169F1DE087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF3A3D8E-4EBD-462C-AF86-D3DA5ECC6231}.Debug.Kraken|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF3A3D8E-4EBD-462C-AF86-D3DA5ECC6231}.Debug.Kraken|Any CPU.Build.0 = Debug|Any CPU
+		{EF3A3D8E-4EBD-462C-AF86-D3DA5ECC6231}.Debug.Kraken|Any CPU.Deploy.0 = Debug|Any CPU
+		{EF3A3D8E-4EBD-462C-AF86-D3DA5ECC6231}.Debug.SmushIt|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF3A3D8E-4EBD-462C-AF86-D3DA5ECC6231}.Debug.SmushIt|Any CPU.Build.0 = Debug|Any CPU
+		{EF3A3D8E-4EBD-462C-AF86-D3DA5ECC6231}.Debug.SmushIt|Any CPU.Deploy.0 = Debug|Any CPU
+		{EF3A3D8E-4EBD-462C-AF86-D3DA5ECC6231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF3A3D8E-4EBD-462C-AF86-D3DA5ECC6231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF3A3D8E-4EBD-462C-AF86-D3DA5ECC6231}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EF3A3D8E-4EBD-462C-AF86-D3DA5ECC6231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF3A3D8E-4EBD-462C-AF86-D3DA5ECC6231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF3A3D8E-4EBD-462C-AF86-D3DA5ECC6231}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7D407201-631C-4825-ADDD-9BC2463AF88D}.Debug.Kraken|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D407201-631C-4825-ADDD-9BC2463AF88D}.Debug.Kraken|Any CPU.Build.0 = Debug|Any CPU
+		{7D407201-631C-4825-ADDD-9BC2463AF88D}.Debug.SmushIt|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D407201-631C-4825-ADDD-9BC2463AF88D}.Debug.SmushIt|Any CPU.Build.0 = Debug|Any CPU
+		{7D407201-631C-4825-ADDD-9BC2463AF88D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D407201-631C-4825-ADDD-9BC2463AF88D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D407201-631C-4825-ADDD-9BC2463AF88D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D407201-631C-4825-ADDD-9BC2463AF88D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E36445EF-B04A-43D2-A259-355FB6390044}.Debug.Kraken|Any CPU.ActiveCfg = Debug|Any CPU
+		{E36445EF-B04A-43D2-A259-355FB6390044}.Debug.Kraken|Any CPU.Build.0 = Debug|Any CPU
+		{E36445EF-B04A-43D2-A259-355FB6390044}.Debug.SmushIt|Any CPU.ActiveCfg = Debug|Any CPU
+		{E36445EF-B04A-43D2-A259-355FB6390044}.Debug.SmushIt|Any CPU.Build.0 = Debug|Any CPU
+		{E36445EF-B04A-43D2-A259-355FB6390044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E36445EF-B04A-43D2-A259-355FB6390044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E36445EF-B04A-43D2-A259-355FB6390044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E36445EF-B04A-43D2-A259-355FB6390044}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{37C7D0CF-3F05-43F0-854B-C6DD98E5F57D} = {15C6E8BA-3B9D-449B-A228-4E709E8B07A5}
+	EndGlobalSection
+EndGlobal

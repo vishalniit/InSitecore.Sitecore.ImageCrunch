@@ -69,10 +69,10 @@
     </xitems>
     <xfiles>
       <Entries>
-        <x-item>/App_Config/Include/Mindtree.ImageCrunch.config</x-item>
-        <x-item>/bin/Mindtree.ImageCrunch.dll</x-item>
-        <x-item>/bin/Mindtree.ImageCrunch.Kraken.dll</x-item>
-        <x-item>/bin/Mindtree.ImageCrunch.Web.82.dll</x-item>
+        <x-item>/App_Config/Include/InSitecore.ImageCrunch.config</x-item>
+        <x-item>/bin/InSitecore.ImageCrunch.dll</x-item>
+        <x-item>/bin/InSitecore.ImageCrunch.Kraken.dll</x-item>
+        <x-item>/bin/InSitecore.ImageCrunch.Web.82.dll</x-item>
         <x-item>/bin/MindtreeSitecore.Common.dll</x-item>
         <x-item>/sitecore/shell/client/Business Component Library/Layouts/Renderings/Forms/Uploader/Uploader.js</x-item>
       </Entries>
