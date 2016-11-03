@@ -50,12 +50,6 @@
     </AssemblyAttributes>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\InSitecore.ImageCrunch.Web.82\InSitecore.ImageCrunch.Web.82.csproj">
-      <Project>{e36445ef-b04a-43d2-a259-355fb6390044}</Project>
-      <Name>InSitecore.ImageCrunch.Web.82</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <SitecoreItem Include="sitecore\media library.item">
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
@@ -160,6 +154,12 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InSitecore.ImageCrunch.Web.82\InSitecore.ImageCrunch.Web.82.csproj">
+      <Project>{e36445ef-b04a-43d2-a259-355fb6390044}</Project>
+      <Name>InSitecore.ImageCrunch.Web.82</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
 </Project>

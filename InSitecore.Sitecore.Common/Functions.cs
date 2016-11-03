@@ -14,7 +14,7 @@ using System.Web;
 using System.IO;
 using Sitecore.IO;
 using Sitecore.Resources.Media;
-namespace MindtreeSitecore.Common
+namespace InSitecoreSitecore.Common
 {
     /// <summary>
     /// Common Function used in service and other CoreSync Funtionalities

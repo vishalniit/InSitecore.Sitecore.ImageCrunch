@@ -9,7 +9,7 @@
       <Comment />
       <Attributes />
       <Readme>Coming Soon..</Readme>
-      <Publisher>Mindtree Ltd.,</Publisher>
+      <Publisher>InSitecore Org</Publisher>
       <PostStep />
       <PackageID />
     </metadata>
@@ -73,7 +73,7 @@
         <x-item>/bin/InSitecore.ImageCrunch.dll</x-item>
         <x-item>/bin/InSitecore.ImageCrunch.Kraken.dll</x-item>
         <x-item>/bin/InSitecore.ImageCrunch.Web.82.dll</x-item>
-        <x-item>/bin/MindtreeSitecore.Common.dll</x-item>
+        <x-item>/bin/InSitecoreSitecore.Common.dll</x-item>
         <x-item>/sitecore/shell/client/Business Component Library/Layouts/Renderings/Forms/Uploader/Uploader.js</x-item>
       </Entries>
       <Converter>

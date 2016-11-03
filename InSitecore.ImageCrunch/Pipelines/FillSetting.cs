@@ -36,7 +36,7 @@ namespace InSitecore.ImageCrunch.Pipelines
             if (itmRootSettingPath != null)
             {
                 var items = from p in itmRootSettingPath.Children
-                            where newpath.Contains("/" + MindtreeSitecore.Common.Functions.GetItem(p.Fields["SiteMediaFolderPath"].Value, itmRootSettingPath.Database.Name, itmRootSettingPath.Language.ToString()).DisplayName + "/")
+                            where newpath.Contains("/" + InSitecoreSitecore.Common.Functions.GetItem(p.Fields["SiteMediaFolderPath"].Value, itmRootSettingPath.Database.Name, itmRootSettingPath.Language.ToString()).DisplayName + "/")
                             select p;
                 //this to make sure that only regional setting is effective if present
                 if (items.Count<Item>() > 1)
@@ -56,10 +56,10 @@ namespace InSitecore.ImageCrunch.Pipelines
         {
             TenantSetting objSetting = null;
             ///sitecore/system/Modules/ImageCore/DefaultTenant
-            //MindtreeSitecore.Common.Functions.GetDatabase()
-            Item settingItm = MindtreeSitecore.Common.Functions.GetItemPath(ImageCorePath, database, language);
+            //InSitecoreSitecore.Common.Functions.GetDatabase()
+            Item settingItm = InSitecoreSitecore.Common.Functions.GetItemPath(ImageCorePath, database, language);
             settingItm = GetSettingItem(settingItm, path);
-            MindtreeSitecore.Common.Functions.ClearSitecoreCacheofItem(database, settingItm.ID);
+            InSitecoreSitecore.Common.Functions.ClearSitecoreCacheofItem(database, settingItm.ID);
             if (settingItm != null)
             {
                 objSetting = new TenantSetting();

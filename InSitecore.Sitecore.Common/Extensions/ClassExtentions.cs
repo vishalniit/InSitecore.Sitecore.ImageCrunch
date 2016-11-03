@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace MindtreeSitecore.Common
+namespace InSitecoreSitecore.Common
 {
     internal static class ClassExtensions
     {

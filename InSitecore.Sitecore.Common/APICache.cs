@@ -6,7 +6,7 @@ using System.Runtime.Caching;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MindtreeSitecore.Common
+namespace InSitecoreSitecore.Common
 {
     public enum APICachePriority
     {

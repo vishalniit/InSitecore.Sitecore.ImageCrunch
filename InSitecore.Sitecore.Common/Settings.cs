@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MindtreeSitecore.Common
+namespace InSitecoreSitecore.Common
 {
     public static class Settings
     {

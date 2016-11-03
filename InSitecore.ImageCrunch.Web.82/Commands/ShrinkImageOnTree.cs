@@ -22,7 +22,7 @@ namespace InSitecore.ImageCrunch.Web.Commands
             {
                 return;
             }
-            else if (MindtreeSitecore.Common.Functions.IsMediaItem(item))
+            else if (InSitecoreSitecore.Common.Functions.IsMediaItem(item))
             {
                 mi = new MediaItem(item);
                 //This make sures that no need to get setting item recursively for each child.
