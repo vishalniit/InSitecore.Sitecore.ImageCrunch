@@ -11,7 +11,7 @@ namespace InSitecore.ImageCrunch.Kraken
     public class KrakenCruncher : ICruncher
     {
         public CrunchResult CrunchStream(Stream stream, CrunchOptions options)
-        {
+        {            
             var client = new HttpClient();
             var content = new MultipartFormDataContent();
             JsonObject parent = new JsonObject();

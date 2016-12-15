@@ -6,16 +6,22 @@ using Sitecore.Shell.Framework.Commands;
 using InSitecore.ImageCrunch.Entities;
 using InSitecore.ImageCrunch.Pipelines;
 using Sitecore.Diagnostics;
+using System.Diagnostics;
+using InSitecoreSitecore.Common;
 
 namespace InSitecore.ImageCrunch.Web.Commands
 {
     [Serializable]
     public class ShrinkImage : Command
     {
+        public TenantSetting objTennantSetting { get; set; }
         public MediaItem mi { get; set; }
         public CrunchOptions crunchOptions { get; set; }
 
         public FillSetting objFillSetting { get; set; }
+        public CrunchedStats crunchedStats { get; set; }
+        public Stopwatch sw { get; set; }
+
         public override void Execute(CommandContext context)
         {
             if (!context.Items.Any(t => t.Paths.IsMediaItem))
@@ -24,11 +30,11 @@ namespace InSitecore.ImageCrunch.Web.Commands
             }
             objFillSetting = null;
             //Sitecore.Context.ClientPage.
-            ProgressBox.Execute("Shrink Image", "Shrink Image", new ProgressBoxMethod(this.Shrink), new object[1]
+            string JobName = "Shrink Image - " + ValidationHelper.ValidateToString(Sitecore.Data.ID.NewID, Guid.NewGuid().ToString());
+            ProgressBox.Execute(JobName, "Shrink Image", new ProgressBoxMethod(this.Shrink), new object[1]
             {
                 context.Items[0]
-            });
-            //Sitecore.Jobs.JobManager.Start(new Sitecore.Jobs.JobOptions("Shrink Image", "Shrink Image", Sitecore.Context.Site.Name, new object[1] { context.Items[0] }, "Shrink"));
+            });  
         }
 
         protected virtual void Shrink(object[] parameters)
@@ -44,7 +50,7 @@ namespace InSitecore.ImageCrunch.Web.Commands
                 mi = new MediaItem(item);
                 crunchOptions = new CrunchOptions();
                 objFillSetting = new FillSetting();
-                TenantSetting objTennantSetting = objFillSetting.getSetting(mi.MediaPath, mi.Database.Name, mi.InnerItem.Language.ToString());
+                objTennantSetting = objFillSetting.getSetting(mi.MediaPath, mi.Database.Name, mi.InnerItem.Language.ToString());
                 if (mi.Size > objTennantSetting.MinimumKBSize && mi.Size < objTennantSetting.MaxImageSize)
                 {
                     crunchOptions.APIKey = objTennantSetting.ApiKey;

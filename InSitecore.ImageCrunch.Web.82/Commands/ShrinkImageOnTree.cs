@@ -7,17 +7,24 @@ using Sitecore.Shell.Framework.Commands;
 using InSitecore.ImageCrunch.Entities;
 using InSitecore.ImageCrunch.Pipelines;
 using Sitecore.Diagnostics;
+using InSitecoreSitecore.Common;
+using System.Diagnostics;
 
 namespace InSitecore.ImageCrunch.Web.Commands
 {
     [Serializable]
     public class ShrinkImageOnTree : ShrinkImage
     {
-        TenantSetting objTennantSetting = null;
         protected override void Shrink(object[] parameters)
         {
             Item item = parameters[0] as Item;
             Job job = Context.Job;
+            if (crunchedStats == null)
+            {
+                crunchedStats = new CrunchedStats();
+                crunchedStats.JobID = job.Name;
+                crunchedStats.typeofExecution = CrunchedStats.TypeofExecution.CrunchbyTreeRibbonCommand;                
+            }
             if (item == null)
             {
                 return;
@@ -39,6 +46,9 @@ namespace InSitecore.ImageCrunch.Web.Commands
                     crunchOptions.lossy = objTennantSetting.Lossy;
                     crunchOptions.dev = objTennantSetting.IsDev;
                     crunchOptions.enhance = objTennantSetting.Enhance;
+                    crunchedStats.Database = mi.Database.Name;
+                    crunchedStats.InitiatedBy = Sitecore.Context.GetUserName();
+                    Log.Info(string.Format("Job Started {0} by {1} on Database {2}", crunchedStats.JobID, crunchedStats.InitiatedBy, crunchedStats.Database), this);
                 }
                 if (objFillSetting.isInitialised)
                 {
@@ -47,10 +57,25 @@ namespace InSitecore.ImageCrunch.Web.Commands
                     {
                         try
                         {
-                            CrunchImage.ProcessMediaItem(mi, crunchOptions);
+                            crunchedStats.BeforeCrunchSize = mi.Size;
+                            if (sw == null)
+                                sw = new Stopwatch();
+                            sw.Start();
+                            crunchedStats.AfterCrunchSize = CrunchImage.ProcessMediaItem(mi, crunchOptions);
+                            sw.Stop();
+                            crunchedStats.TimeTaken = sw.ElapsedMilliseconds;
                             if (job != null)
                             {
+                                
+
                                 job.Status.LogInfo(string.Format("Done: {0}", item.Paths.FullPath));
+                                Log.Info(string.Format("Done: {0}", item.Paths.FullPath), this);
+
+                                job.Status.LogInfo(string.Format("Stats - Before Crunch Size: {0}", crunchedStats.BeforeCrunchSize));
+                                Log.Info(string.Format("Stats - Before Crunch Size: {0}", crunchedStats.BeforeCrunchSize), this);
+
+                                job.Status.LogInfo(string.Format("Stats - After Crunch Size: {0}", crunchedStats.AfterCrunchSize));
+                                Log.Info(string.Format("Stats - After Crunch Size: {0}", crunchedStats.AfterCrunchSize), this);
                             }
                         }
                         catch (Exception catche)

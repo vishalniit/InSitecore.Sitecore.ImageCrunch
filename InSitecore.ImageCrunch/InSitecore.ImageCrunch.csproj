@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CrunchImage.cs" />
+    <Compile Include="Entities\CrunchLog.cs" />
     <Compile Include="Entities\TenantSetting.cs" />
     <Compile Include="Entities\CrunchOptions.cs" />
     <Compile Include="Entities\CrunchResult.cs" />
